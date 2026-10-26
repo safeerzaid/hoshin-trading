@@ -888,3 +888,42 @@ body:has(.h-header.is-hidden) .v-catnav { top: 12px; }
     text-align: right !important;
   }
 }
+
+/* Sourcing Banner on Category Page: Responsive Layout */
+.h-sourcing-banner__grid {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+}
+.h-sourcing-banner__text {
+  flex: 1 1 65%;
+  max-width: 780px;
+}
+.h-sourcing-banner__cta {
+  flex: 0 0 auto;
+}
+@media (max-width: 991px) {
+  .h-sourcing-banner__grid {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .h-sourcing-banner__text {
+    width: 100%;
+    max-width: 100%;
+  }
+  .h-sourcing-banner__cta {
+    width: 100%;
+  }
+  .h-sourcing-banner__cta .h-btn {
+    display: inline-flex;
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  .h-sourcing-banner__cta .h-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
