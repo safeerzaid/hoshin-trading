@@ -71,7 +71,7 @@ class Hoshin_Hero_Widget extends \Elementor\Widget_Base {
             [
                 'label' => esc_html__( 'Primary Button Text', 'hoshin-trading' ),
                 'type' => \Elementor\Controls_Manager::TEXT,
-                'default' => esc_html__( 'Explore Product Catalog', 'hoshin-trading' ),
+                'default' => esc_html__( 'Explore All Products', 'hoshin-trading' ),
             ]
         );
 

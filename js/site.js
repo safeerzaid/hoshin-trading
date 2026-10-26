@@ -155,7 +155,11 @@
       if (e.pointerType === 'mouse') close();
     });
     trigger.addEventListener('click', function (e) {
-      if (!desktop()) return;
+      if (!desktop()) {
+        e.preventDefault();
+        isOpen() ? close(true) : open();
+        return;
+      }
       // Mouse users already opened it by hovering, so a click follows the link.
       if (e.pointerType === 'mouse' || (e.detail && !('ontouchstart' in window))) return;
       e.preventDefault();
@@ -170,6 +174,9 @@
     cats.forEach(function (c) {
       c.addEventListener('mouseenter', function () { setActive(c.dataset.cat); });
       c.addEventListener('focus', function () { if (isOpen()) setActive(c.dataset.cat); });
+      c.addEventListener('click', function () {
+        if (!desktop()) close(true);
+      });
     });
     item.addEventListener('focusout', function (e) {
       if (isOpen() && !item.contains(e.relatedTarget)) close(true);
@@ -695,9 +702,9 @@
     $$('.v-gallery').forEach(function (g) {
       var track = $('.v-gallery__track', g);
       gsap.fromTo(track, { x: 0 }, {
-        x: function () { return -Math.max(0, track.scrollWidth - g.clientWidth) * 0.7; },
+        x: function () { return -Math.max(0, track.scrollWidth - g.clientWidth) * 0.28; },
         ease: 'none',
-        scrollTrigger: { trigger: g, start: 'top bottom', end: 'bottom top', scrub: 0.8, invalidateOnRefresh: true }
+        scrollTrigger: { trigger: g, start: 'top bottom', end: 'bottom top', scrub: 1.8, invalidateOnRefresh: true }
       });
     });
   }

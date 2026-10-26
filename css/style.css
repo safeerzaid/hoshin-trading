@@ -7451,10 +7451,11 @@ section.section:has(.grid-12) .container,
 
 .denmar-inset-desc {
   font-family: var(--font-body), 'Inter', sans-serif !important;
-  font-size: clamp(13.5px, 1.02vw, 15px) !important;
-  line-height: 1.6 !important;
-  color: rgba(255, 255, 255, 0.94) !important;
-  font-weight: 400 !important;
+  font-size: clamp(15px, 1.1vw, 17px) !important;
+  line-height: 1.65 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45) !important;
   margin: 0 !important;
 }
 
@@ -7632,6 +7633,10 @@ section.section:has(.grid-12) .container,
   .denmar-hero-canvas {
     padding: 28px 20px 200px !important;
     border-radius: 20px !important;
+  }
+
+  .denmar-hero-overlay {
+    background: linear-gradient(180deg, rgba(6, 18, 36, 0.88) 0%, rgba(6, 18, 36, 0.68) 45%, rgba(6, 18, 36, 0.94) 100%), rgba(6, 18, 36, 0.3) !important;
   }
 
   .denmar-hero-headline {

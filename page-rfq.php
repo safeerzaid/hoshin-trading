@@ -46,7 +46,7 @@ get_header(); ?>
         <div id="rfq-empty-state" class="empty-state" style="display: none;">
           <h2>Your Inquiry List is Empty</h2>
           <p>You have not selected any items yet. Browse our comprehensive catalog to add HVAC parts, cables, valves, or safety gear to your customized RFQ.</p>
-          <a href="<?php echo esc_url( home_url( "/products/" ) ); ?>" class="btn btn-primary">Browse Product Catalog</a>
+          <a href="<?php echo esc_url( home_url( "/products/" ) ); ?>" class="btn btn-primary">Browse All Products</a>
         </div>
 
         <!-- Populated State: Table + Form + Sticky Sidebar -->
@@ -66,9 +66,8 @@ get_header(); ?>
               <table class="inquiry-table" id="inquiry-table">
                 <thead>
                   <tr>
-                    <th style="width: 45%;">Item / Specification</th>
-                    <th style="width: 20%;">Quantity</th>
-                    <th style="width: 25%;">Item Notes / Tag</th>
+                    <th style="width: 65%;">Item / Specification</th>
+                    <th style="width: 25%;">Quantity</th>
                     <th style="width: 10%; text-align: right;">Action</th>
                   </tr>
                 </thead>
@@ -266,7 +265,7 @@ get_header(); ?>
             name: paramItem,
             partNo: 'HT-' + (paramCat ? paramCat.toUpperCase() : 'SPEC'),
             qty: 1,
-            note: 'Added from Product Showcase',
+            note: '',
             categorySlug: paramCat || 'general'
           });
         }
@@ -318,11 +317,8 @@ get_header(); ?>
                 <button type="button" class="qty-btn js-qty-increase" aria-label="Increase">&plus;</button>
               </div>
             </td>
-            <td>
-              <input type="text" class="form-input js-item-note" style="padding: 8px 12px; font-size: 13px;" placeholder="e.g. 380V / specific brand" value="${item.note || ''}">
-            </td>
             <td style="text-align: right;">
-              <button type="button" class="btn-remove js-item-remove" aria-label="Remove item">
+              <button type="button" class="btn-remove js-item-remove" aria-label="Remove item" title="Remove item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
                   <path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M10 11v6M14 11v6"/>
                 </svg>
@@ -337,7 +333,6 @@ get_header(); ?>
           const qtyValInput = row.querySelector('.js-qty-val');
           const btnDec = row.querySelector('.js-qty-decrease');
           const btnInc = row.querySelector('.js-qty-increase');
-          const noteInput = row.querySelector('.js-item-note');
           const btnRemove = row.querySelector('.js-item-remove');
 
           btnDec.addEventListener('click', () => {
