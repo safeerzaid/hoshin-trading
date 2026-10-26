@@ -1,0 +1,131 @@
+﻿/* ==========================================================================
+   CONTACT FORM & BUTTON REFINEMENT: CRISP, PROPORTIONED & UNBROKEN
+   ========================================================================== */
+.elementor-widget-hoshin_contact_section .card,
+.section .card {
+  box-sizing: border-box !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  overflow: visible !important;
+}
+
+.form-field {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.form-label {
+  font-family: var(--font-body) !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  color: #1e293b !important;
+  letter-spacing: -0.01em !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.form-input,
+.form-select {
+  width: 100% !important;
+  height: 48px !important;
+  min-height: 48px !important;
+  padding: 0 16px !important;
+  font-family: var(--font-body) !important;
+  font-size: 15px !important;
+  color: #0f172a !important;
+  background-color: #f8fafc !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  box-sizing: border-box !important;
+  transition: all 0.2s ease !important;
+  line-height: normal !important;
+}
+
+.form-textarea {
+  width: 100% !important;
+  min-height: 120px !important;
+  padding: 14px 16px !important;
+  font-family: var(--font-body) !important;
+  font-size: 15px !important;
+  color: #0f172a !important;
+  background-color: #f8fafc !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  box-sizing: border-box !important;
+  transition: all 0.2s ease !important;
+  resize: vertical !important;
+  line-height: 1.5 !important;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  background-color: #ffffff !important;
+  border-color: #061325 !important;
+  box-shadow: 0 0 0 3px rgba(6, 19, 37, 0.08) !important;
+  outline: none !important;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #94a3b8 !important;
+  font-size: 14px !important;
+}
+
+.grid-2 {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 16px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 640px) {
+  .grid-2 {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+}
+
+button[type='submit'].btn-primary,
+button[type='submit'].btn,
+.elementor-widget-hoshin_contact_section button[type='submit'] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 52px !important;
+  min-height: 52px !important;
+  padding: 0 28px !important;
+  background: #061325 !important;
+  background-color: #061325 !important;
+  color: #ffffff !important;
+  border: 1.5px solid #061325 !important;
+  border-radius: 8px !important;
+  font-family: var(--font-body) !important;
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em !important;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 4px 16px rgba(6, 19, 37, 0.15) !important;
+  transition: all 0.22s ease !important;
+  text-decoration: none !important;
+  margin-top: 10px !important;
+}
+
+button[type='submit'].btn-primary:hover,
+button[type='submit'].btn:hover,
+.elementor-widget-hoshin_contact_section button[type='submit']:hover {
+  background: #1c3c58 !important;
+  background-color: #1c3c58 !important;
+  border-color: #1c3c58 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(6, 19, 37, 0.22) !important;
+}

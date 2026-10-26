@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eaeef6"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="0.75"/>
+    </pattern>
+  </defs>
+  <rect width="360" height="260" rx="16" fill="url(#bgGrad)"/>
+  <rect width="360" height="260" rx="16" fill="url(#grid)" opacity="0.6"/>
+  <g transform="translate(180, 130) scale(4.6)">
+    <g transform="translate(-12, -12)" stroke="#0e1b36" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="16" height="16" rx="2"/><circle cx="9" cy="10" r="3"/><circle cx="15" cy="10" r="3"/><path d="M9 16v3M15 16v3"/>
+    </g>
+  </g>
+  <!-- <text x="180" y="178" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#0e1b36" text-anchor="middle">Dual Pressure Controller</text> -->
+  <!-- <text x="180" y="198" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#5b6477" text-anchor="middle">Auto / Manual Reset</text> -->
+  <!-- <rect x="148" y="236" width="64" height="6" rx="3" fill="#cbd5e1"/> -->
+</svg>

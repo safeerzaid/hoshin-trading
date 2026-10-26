@@ -1,0 +1,256 @@
+/* ==========================================================================
+   ORCHID-STYLE MEGA MENU NAVBAR (EXACT REPLICA OF USER REFERENCE)
+   ========================================================================== */
+
+.orchid-navbar-header {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  background: #ffffff !important;
+  z-index: 999999 !important;
+  border-bottom: 1px solid rgba(18, 28, 43, 0.08) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02) !important;
+}
+
+.orchid-nav-container {
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+  padding: 14px 36px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: relative !important;
+}
+
+.orchid-nav-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 36px !important;
+}
+
+.orchid-logo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+}
+
+.orchid-logo-link img {
+  height: 54px !important;
+  width: auto !important;
+  display: block !important;
+}
+
+.orchid-menu-list {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.orchid-menu-item {
+  position: relative !important;
+}
+
+/* Products Pill Trigger */
+.orchid-pill-trigger {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 8px 18px !important;
+  background: #eef1f4 !important;
+  color: #121c2b !important;
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  border-radius: 999px !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid transparent !important;
+}
+
+.orchid-pill-trigger:hover,
+.orchid-menu-item:hover .orchid-pill-trigger {
+  background: #e2e6eb !important;
+  color: #0b1320 !important;
+}
+
+.orchid-pill-trigger svg {
+  transition: transform 0.25s ease !important;
+}
+
+.orchid-menu-item:hover .orchid-pill-trigger svg {
+  transform: rotate(180deg) !important;
+}
+
+/* Regular Nav Links */
+.orchid-nav-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 8px 16px !important;
+  font-size: 0.92rem !important;
+  font-weight: 600 !important;
+  color: #526071 !important;
+  text-decoration: none !important;
+  border-radius: 999px !important;
+  transition: color 0.2s ease, background 0.2s ease !important;
+}
+
+.orchid-nav-link:hover {
+  color: #121c2b !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Right Actions (Inquiry & Request Quote) */
+.orchid-nav-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.orchid-inquiry-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 9px 18px !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(18, 28, 43, 0.12) !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  color: #121c2b !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.orchid-inquiry-btn:hover {
+  background: #121c2b !important;
+  color: #ffffff !important;
+}
+
+.orchid-quote-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 10px 22px !important;
+  border-radius: 999px !important;
+  background: #121c2b !important;
+  color: #ffffff !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  transition: all 0.2s ease !important;
+}
+
+.orchid-quote-btn:hover {
+  background: #0b1320 !important;
+  transform: translateY(-1px) !important;
+}
+
+/* ==================== THE ORCHID MEGA MENU DROPDOWN PANEL ==================== */
+.orchid-mega-dropdown {
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  left: 0 !important;
+  width: 1060px !important;
+  max-width: calc(100vw - 72px) !important;
+  background: #ffffff !important;
+  border-radius: 24px !important;
+  box-shadow: 0 30px 80px rgba(11, 19, 32, 0.18), 0 4px 20px rgba(11, 19, 32, 0.06) !important;
+  border: 1px solid rgba(18, 28, 43, 0.08) !important;
+  padding: 36px 40px !important;
+  z-index: 1000000 !important;
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateY(10px) !important;
+  transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.25s !important;
+}
+
+/* Safe Hover Bridge */
+.orchid-mega-dropdown::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -16px !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 16px !important;
+}
+
+/* Hover & Active Visibility */
+.orchid-menu-item:hover .orchid-mega-dropdown,
+.orchid-menu-item.is-open .orchid-mega-dropdown,
+.orchid-mega-dropdown:hover {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+}
+
+.orchid-mega-label {
+  font-size: 0.74rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: #8c98a4 !important;
+  margin-bottom: 24px !important;
+}
+
+.orchid-mega-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 18px !important;
+}
+
+.orchid-category-card {
+  background: #f7f9fa !important;
+  border: 1px solid rgba(18, 28, 43, 0.05) !important;
+  border-radius: 16px !important;
+  padding: 24px 26px !important;
+  text-decoration: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: all 0.2s ease !important;
+}
+
+.orchid-category-card:hover {
+  background: #eef2f6 !important;
+  border-color: rgba(18, 28, 43, 0.14) !important;
+  transform: translateY(-2px) !important;
+}
+
+.orchid-card-icon {
+  width: 32px !important;
+  height: 32px !important;
+  color: #121c2b !important;
+  margin-bottom: 16px !important;
+}
+
+.orchid-card-title {
+  font-size: 1.12rem !important;
+  font-weight: 700 !important;
+  color: #121c2b !important;
+  margin: 0 0 6px !important;
+}
+
+.orchid-card-desc {
+  font-size: 0.86rem !important;
+  line-height: 1.5 !important;
+  color: #5d6d7e !important;
+  margin: 0 !important;
+}
+
+/* Ensure Mega Dropdown is active when .is-active class is added or on hover */
+.orchid-mega-dropdown.is-active,
+.orchid-menu-item:hover .orchid-mega-dropdown {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+}

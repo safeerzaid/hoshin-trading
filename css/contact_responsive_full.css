@@ -1,0 +1,77 @@
+﻿
+/* ==========================================================================
+   CONTACT PAGE: FULL RESPONSIVE WIDTH EXPANSION FOR TABLET & MOBILE (<= 1024px)
+   - Eliminates squeezed columns by collapsing to 100% full-width stacked cards
+   - Optimizes internal padding so form fields have maximum breathing room
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .section,
+  .elementor-widget-hoshin_contact_section {
+    padding-top: 24px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .elementor-widget-hoshin_contact_section .container,
+  section.section .container,
+  section.section:has(.grid-12) .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: clamp(14px, 3.5vw, 24px) !important;
+    padding-right: clamp(14px, 3.5vw, 24px) !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .grid-12 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 20px !important;
+    margin: 0 !important;
+  }
+
+  .grid-12 > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    grid-column: auto !important;
+    flex: 1 1 100% !important;
+  }
+
+  .elementor-widget-hoshin_contact_section .card,
+  section.section .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: clamp(20px, 4vw, 32px) clamp(16px, 3.5vw, 28px) !important;
+    box-sizing: border-box !important;
+  }
+
+  .form-field {
+    width: 100% !important;
+    margin-bottom: 16px !important;
+  }
+
+  .grid-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    width: 100% !important;
+  }
+
+  .form-input,
+  .form-select {
+    width: 100% !important;
+    height: 48px !important;
+  }
+
+  .form-textarea {
+    width: 100% !important;
+    min-height: 110px !important;
+  }
+
+  button[type='submit'].btn-primary,
+  .elementor-widget-hoshin_contact_section button[type='submit'] {
+    width: 100% !important;
+    height: 50px !important;
+  }
+}

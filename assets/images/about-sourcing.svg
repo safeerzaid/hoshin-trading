@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="abg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1b36"/>
+      <stop offset="100%" stop-color="#16294f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a457a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0e1b36" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" rx="20" fill="url(#abg)"/>
+  <circle cx="300" cy="225" r="160" fill="url(#glow)"/>
+  <!-- Compass lines -->
+  <circle cx="300" cy="225" r="120" stroke="#334d7d" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+  <circle cx="300" cy="225" r="70" stroke="#486ba6" stroke-width="1.5" fill="none"/>
+  <path d="M300 75v300M150 225h300" stroke="#253a63" stroke-width="1.5"/>
+  <!-- Sourcing nodes -->
+  <g transform="translate(180, 140)">
+    <circle cx="0" cy="0" r="28" fill="#1b2f56" stroke="#486ba6" stroke-width="2"/>
+    <text x="0" y="4" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">Europe</text>
+  </g>
+  <g transform="translate(420, 140)">
+    <circle cx="0" cy="0" r="28" fill="#1b2f56" stroke="#486ba6" stroke-width="2"/>
+    <text x="0" y="4" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">East Asia</text>
+  </g>
+  <g transform="translate(160, 310)">
+    <circle cx="0" cy="0" r="28" fill="#1b2f56" stroke="#486ba6" stroke-width="2"/>
+    <text x="0" y="4" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">Americas</text>
+  </g>
+  <g transform="translate(440, 310)">
+    <circle cx="0" cy="0" r="28" fill="#1b2f56" stroke="#486ba6" stroke-width="2"/>
+    <text x="0" y="4" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">GCC &amp; ME</text>
+  </g>
+  <!-- Center Hub: Doha, Qatar -->
+  <circle cx="300" cy="225" r="44" fill="#ffffff" stroke="#16294f" stroke-width="4"/>
+  <text x="300" y="222" font-family="'Inter Tight', Inter, sans-serif" font-size="13" font-weight="700" fill="#16294f" text-anchor="middle">HOSHIN</text>
+  <text x="300" y="238" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#5b6477" text-anchor="middle">Doha, Qatar</text>
+  <!-- Dynamic arcs -->
+  <path d="M198 152 Q 240 180 262 208" stroke="#eaeef6" stroke-width="2" fill="none"/>
+  <path d="M402 152 Q 360 180 338 208" stroke="#eaeef6" stroke-width="2" fill="none"/>
+  <path d="M182 298 Q 240 270 262 242" stroke="#eaeef6" stroke-width="2" fill="none"/>
+  <path d="M418 298 Q 360 270 338 242" stroke="#eaeef6" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,69 @@
+# Photo credits (all CC0 / Public Domain via Openverse)
+
+- elec-panel.jpg | cc0 | stocksnap | Michal Jarmoluk | https://stocksnap.io/photo/electrician-electricity-3A5FXM89OG
+- elec-reel.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5902782/photo-image-white-background-public-domain-line
+- elec-wires.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5924439/photo-image-white-background-public-domain-line
+- eng-surveyors.jpg | cc0 | rawpixel | U.S. Department of Agriculture | https://www.rawpixel.com/image/3306826/free-photo-image-helmet-cc0-conservation
+- eng-vest.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5928023/photo-image-background-public-domain-person
+- eng-welder.jpg | cc0 | rawpixel | U.S. Army Corps of Engineers | https://www.rawpixel.com/image/4030854/contractor-welding-national-air-force-museum
+- hero-port.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6030787/photo-image-public-domain-construction-free
+- hvac-condensers.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6074673/20th-dec-mizonokuchi
+- hvac-thermostat.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5920124/photo-image-background-public-domain-hands
+- hvac-units.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6074073/mizonokuchi-4th-apr
+- plans-drill.jpg | cc0 | stocksnap | JESHOOTS.com | https://stocksnap.io/photo/floorplan-workshop-N3BPNPN0FY
+- plans-hands.jpg | cc0 | stocksnap | Helloquence | https://stocksnap.io/photo/writing-papers-Y01VDYAX63
+- plumb-blue-valves.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5914172/image-light-public-domain-blue
+- plumb-copper-valves.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6041215/water-valve-free-public-domain-cc0-photo
+- plumb-dark.jpg | cc0 | stocksnap | Little Visuals | https://stocksnap.io/photo/pipes-valve-3B1DC409EF
+- plumb-gauges.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6016296/photo-image-public-domain-green-nature
+- plumb-pipework.jpg | cc0 | rawpixel | U.S. Army | https://www.rawpixel.com/image/10995767/industrial-piping-system-factory-pipes
+- plumb-plant.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5915775/image-public-domain-plant-camera
+- plumb-pumps.jpg | cc0 | rawpixel | U.S. Department of Agriculture | https://www.rawpixel.com/image/3306674/free-photo-image-machine-water-pipes-loan
+- port-night.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/8732370/photo-image-public-domain-water
+- port-sunset.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6033195/night-sky-crane-free-public-domain-cc0-photo
+- port-terminal.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6066357/free-public-domain-cc0-photo
+- ref-brass.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6069218/free-public-domain-cc0-photo
+- ref-copper-elbows.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6026501/photo-image-public-domain-free-shine
+- ref-copper-fittings.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5947474/free-public-domain-cc0-photo
+- safety-hardhats.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5921213/photo-image-public-domain-construction-free
+- safety-hivis.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5921491/free-safety-hat-public-domain-cc0-photo
+- safety-ppe.jpg | cc0 | stocksnap | The World is a Stage | https://stocksnap.io/photo/safety-gear-ULWDJDM6GZ
+- site-aerial.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5927506/photo-image-public-domain-construction-free
+- site-crane.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5922602/photo-image-background-public-domain-free
+- site-formwork.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6039202/construction-site-free-public-domain-cc0-photo
+- site-rebar-team.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6026425/photo-image-public-domain-person-construction
+- site-worker.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5924884/photo-image-background-public-domain-free
+- steel-beams.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5963233/free-public-domain-cc0-photo
+- steel-frame.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/3284883/free-photo-image-construction-steel-wooden-beam
+- steel-mesh.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/9658902/construction
+- steel-rebar.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5944672/free-public-domain-cc0-photo
+- steel-structure.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5962305/free-public-domain-cc0-photo
+- tools-sockets.jpg | cc0 | stocksnap | Jaroslaw%20Puszczy%u0144ski | https://stocksnap.io/photo/wrench-sockets-M07SV6AMBD
+- tools-wrenches.jpg | cc0 | stocksnap | The World is a Stage | https://stocksnap.io/photo/workshop-wrench-O8DVPXYOIY
+- weld-blue.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5904412/person-welding-free-public-domain-cc0-photo
+- weld-site.jpg | cc0 | rawpixel | U.S. Army Corps of Engineers | https://www.rawpixel.com/image/4030854/contractor-welding-national-air-force-museum
+- wh-boxes.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5904462/photo-image-public-domain-office-free
+- wh-cable-drums.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5964922/small-warehouse-spare-parts-and-components
+- wh-drums.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5920634/photo-image-public-domain-interior-free
+- wh-hall.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5914840/photo-image-public-domain-free-warehouse
+- wh-racks.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5921256/photo-image-public-domain-free
+- p-led.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6021716/led-light-bulb-free-public-domain-cc0-photo
+- p-harness.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6038432/photo-image-public-domain-hand-person
+- p-bolts.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6018763/photo-image-public-domain-construction-free
+- p-gloves.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/3295733/free-photo-image-yellow-picture-human-apparel-beekeeper
+- p-insul.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5947134/free-public-domain-cc0-photo
+- p-pvc.jpg | cc0 | stocksnap | Tim Sullivan | https://stocksnap.io/photo/drainage-pipes-J7GDUQ3PHC
+- p-socket.jpg | cc0 | rawpixel | Markus Spiske | https://www.rawpixel.com/image/432903/electrical-plugs
+- p-mask.jpg | cc0 | rawpixel | Centers for Disease Control and Prevention | https://www.rawpixel.com/image/2288512/free-photo-image-mask-face-coronavirus
+- p-grinder.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6072357/free-public-domain-cc0-photo
+- p-mcb.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5921188/photo-image-public-domain-technology-free
+- p-panel.jpg | cc0 | stocksnap | Michal Jarmoluk | https://stocksnap.io/photo/electricity-switches-6Y6VEZPDC1
+- p-switch.jpg | cc0 | stocksnap | Tim Sullivan | https://stocksnap.io/photo/on-button-ELU8NK1RT9
+- p-boots.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6113029/photo-image-public-domain-logo-person
+- p-valvewheel.jpg | cc0 | stocksnap | Little Visuals | https://stocksnap.io/photo/valve-hose-E602C9DDEA
+- spec-hvac.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5920124/photo-image-background-public-domain-hands
+- spec-refrigeration.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6020845/photo-image-public-domain-free-building
+- spec-electrical.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5904900/photo-image-public-domain-line-free
+- spec-plumbing.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5914172/image-light-public-domain-blue
+- spec-building.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/6042896/photo-image-public-domain-construction-free
+- spec-safety.jpg | cc0 | rawpixel |  | https://www.rawpixel.com/image/5921491/free-safety-hat-public-domain-cc0-photo

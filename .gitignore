@@ -1,0 +1,28 @@
+# Local-only / sensitive — never publish
+auto_auth_snippet.php
+cookies.txt
+# Saved copies of the local WordPress site (contain session tokens)
+current_wp_live.html
+homepage_live_rendered.html
+live_wp_rendered.html
+# Client documents
+docs/
+# Licensed font files (not used by the site)
+assets/fonts/
+Britanica-Bold Regular/
+# Backups
+backup_*/
+*.bak
+*.bak-*
+*.bak[0-9]*
+# One-off edit/sync scripts and scratch files
+*.py
+!server.py
+scratch_*
+__pycache__/
+# Design references, test pages, editor settings, unused folders
+*inspo*.jpg
+test_menu.html
+.vscode/
+v2/
+asset/

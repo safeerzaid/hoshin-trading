@@ -1,0 +1,835 @@
+[
+  {
+    "id": "hvac-001",
+    "name": "Scroll Compressor 3 TR R410A",
+    "categorySlug": "hvac",
+    "subCategory": "Compressors (Rotary, Scroll, Reciprocating)",
+    "partNo": "ZR36K3E-TFD-522",
+    "shortSpec": "3.0 TR nominal capacity, R410A refrigerant, 380-415V / 3Ph / 50Hz",
+    "description": "High-efficiency hermetic scroll compressor engineered for commercial air conditioning, ducted split systems, and rooftop package units. Built with robust internal motor protection and optimized for high-ambient Middle East operating conditions.",
+    "applications": [
+      "Commercial",
+      "MEP Projects",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Capacity": "36,000 BTU/hr (3.0 TR)",
+      "Refrigerant": "R410A",
+      "Power Supply": "380-415V / 3Ph / 50Hz",
+      "Motor Type": "Hermetic Scroll",
+      "Displacement": "46.2 cm³/rev",
+      "Oil Type": "Polyolester (POE)",
+      "Weight": "31.2 kg",
+      "Certification": "CE / UL / AHRI Compliant"
+    },
+    "image": "assets/images/products/compressors.webp"
+  },
+  {
+    "id": "hvac-002",
+    "name": "Condenser Fan Motor 1/3 HP 850 RPM",
+    "categorySlug": "hvac",
+    "subCategory": "Motors & Fan Components",
+    "partNo": "MOT-CF-33-850",
+    "shortSpec": "1/3 HP, 850 RPM, 220-240V, Class F insulation, IP54",
+    "description": "Heavy-duty outdoor condenser blower motor with ball bearings designed for outdoor condensing units and chillers. Features moisture-resistant windings and extended service life under extreme ambient heat.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Rated Power": "1/3 HP (250 Watts)",
+      "Speed": "850 RPM (Single Speed)",
+      "Voltage": "220-240V / 1Ph / 50Hz",
+      "Frame Type": "48 Frame, Totally Enclosed (TEAO)",
+      "Insulation Class": "Class F (155°C)",
+      "Protection": "Thermal Overload Protected",
+      "Mounting": "Belly Band / Stud Mount"
+    },
+    "image": "assets/images/products/motors-fan-components.webp"
+  },
+  {
+    "id": "hvac-003",
+    "name": "Universal AC Inverter Control Board / PCB",
+    "categorySlug": "hvac",
+    "subCategory": "Controls & Electronics (PCBs, Thermostats, Sensors)",
+    "partNo": "PCB-INV-UNIV-90",
+    "shortSpec": "Microprocessor controlled, 9000-24000 BTU support, dual sensor ports",
+    "description": "Advanced replacement electronic control board compatible with major split AC and ducted systems. Includes remote controller, room temperature sensor, coil pipe sensor, and diagnostic LED status indicators.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Compatibility": "Split & Ducted AC (9,000 to 24,000 BTU)",
+      "Operating Voltage": "220-240V AC 50/60Hz",
+      "Sensors Included": "Room temp & Evaporator coil sensor",
+      "Buzzer & Display": "Integrated LED digital display",
+      "Fan Control": "3-Speed relay output + Swing motor drive",
+      "Housing": "Flame-retardant ABS protective tray"
+    },
+    "image": "assets/images/products/controls-electronics.webp"
+  },
+  {
+    "id": "hvac-004",
+    "name": "Thermostatic Expansion Valve (TXV) R410A",
+    "categorySlug": "hvac",
+    "subCategory": "Valves (Expansion, Solenoid)",
+    "partNo": "TXV-R410A-04T",
+    "shortSpec": "4.0 TR capacity, adjustable superheat, solder ODF connections",
+    "description": "Precision thermostatic expansion valve designed to control liquid refrigerant flow into evaporators for optimal heat exchange and compressor protection. Suitable for split systems, air handlers, and package units.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Refrigerant": "R410A",
+      "Nominal Capacity": "4.0 TR",
+      "Connection Type": "Inlet 1/2\" ODF x Outlet 5/8\" ODF",
+      "Equalizer": "1/4\" External ODF Solder",
+      "Max Working Pressure": "45.5 bar (660 psig)",
+      "Temperature Range": "-40°C to +10°C"
+    },
+    "image": "assets/images/products/valves-refrigeration.webp"
+  },
+  {
+    "id": "hvac-005",
+    "name": "Digital Programmable FCU Thermostat",
+    "categorySlug": "hvac",
+    "subCategory": "Controls & Electronics (PCBs, Thermostats, Sensors)",
+    "partNo": "TH-FCU-24V-MOD",
+    "shortSpec": "24V AC, 2-pipe / 4-pipe FCU, Modbus RTU RS485 communication",
+    "description": "Architectural flush-mount digital room thermostat with backlit LCD touch buttons. Supports 3-speed fan control, valve actuators, and integration with Building Management Systems (BMS) via Modbus RTU protocol.",
+    "applications": [
+      "Commercial",
+      "Residential",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Power Supply": "24V AC / DC",
+      "Output": "3 Relay for fan speed, 2 relay for valves",
+      "Communication": "Modbus RTU over RS-485",
+      "Set-point Range": "5°C to 35°C (0.5°C precision)",
+      "Display": "Large white backlit LCD screen",
+      "Enclosure": "IP20 Flame retardant PC"
+    },
+    "image": "assets/images/products/controls-electronics.webp"
+  },
+  {
+    "id": "hvac-006",
+    "name": "Heavy Duty Dual Run Capacitor 50+5 uF 440V",
+    "categorySlug": "hvac",
+    "subCategory": "Electrical Components (Capacitors, Contactors, Overload Relays)",
+    "partNo": "CAP-50-5-440V",
+    "shortSpec": "50+5 uF, 440V AC, round aluminum case, 10,000 AFC pressure interrupter",
+    "description": "Premium metalized polypropylene film capacitor designed for continuous motor run in air conditioning compressors and fan motors. Features an internal pressure-sensitive interrupter for fail-safe thermal disconnect.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Capacitance": "50 uF (Herm) + 5 uF (Fan) ±5%",
+      "Rated Voltage": "440V AC 50/60Hz",
+      "Operating Temp": "-40°C to +85°C",
+      "Safety Rating": "10,000 AFC (UL 810 tested)",
+      "Terminals": "Standard 1/4\" male quick-connect quad spade",
+      "Dimensions": "60 mm dia x 115 mm height"
+    },
+    "image": "assets/images/products/hvac-electrical-components.webp"
+  },
+  {
+    "id": "ref-001",
+    "name": "Refrigerant Gas R410A Disposable Cylinder (11.3 kg)",
+    "categorySlug": "refrigeration",
+    "subCategory": "Refrigerant Gases",
+    "partNo": "REF-R410A-113KG",
+    "shortSpec": "11.3 kg net weight, 99.9% purity, non-ozone depleting HFC blend",
+    "description": "Factory-sealed virgin R410A refrigerant cylinder used in modern residential and commercial air conditioning and heat pump systems. Certified to ARI-700 purity standards with strict moisture control under 10 ppm.",
+    "applications": [
+      "Commercial",
+      "Residential",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Chemical Name": "Difluoromethane / Pentafluoroethane blend (50/50)",
+      "Net Weight": "11.3 kg (25 lbs)",
+      "Purity": "≥ 99.9% by weight",
+      "Moisture Content": "≤ 10 ppm",
+      "Boiling Point": "-51.4°C at 1 atm",
+      "Cylinder Spec": "DOT-39 / ISO 11118 with pressure relief valve"
+    },
+    "image": "assets/images/products/hvac-maintenance-consumables.webp"
+  },
+  {
+    "id": "ref-002",
+    "name": "Refrigerant Gas R134a Cylinder (13.6 kg)",
+    "categorySlug": "refrigeration",
+    "subCategory": "Refrigerant Gases",
+    "partNo": "REF-R134A-136KG",
+    "shortSpec": "13.6 kg net weight, pure 1,1,1,2-Tetrafluoroethane, HFC",
+    "description": "High-purity R134a refrigerant gas widely utilized in commercial centrifugal chillers, walk-in cold rooms, refrigerated logistics vehicles, and automotive HVAC systems.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Chemical Formula": "CH2FCF3 (HFC-134a)",
+      "Net Weight": "13.6 kg (30 lbs)",
+      "Purity": "≥ 99.95%",
+      "Critical Temperature": "101.1°C",
+      "Standard": "AHRI-700 Certified",
+      "Packaging": "Non-refillable safety-sealed cylinder"
+    },
+    "image": "assets/images/products/hvac-maintenance-consumables.webp"
+  },
+  {
+    "id": "ref-003",
+    "name": "Copper Elbow 90° Long Radius 7/8 inch",
+    "categorySlug": "refrigeration",
+    "subCategory": "Copper Fittings",
+    "partNo": "CU-ELB-90-087",
+    "shortSpec": "7/8\" O.D., seamless deoxidized copper (Cu-DHP), ASME B16.22",
+    "description": "Wrot copper solder-joint 90-degree long radius elbow engineered for HVAC and refrigeration suction and liquid lines. Provides smooth laminar refrigerant flow with minimized pressure drop.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Size": "7/8\" Outside Diameter (OD)",
+      "Material": "UNS C12200 Deoxidized High Phosphorous Copper",
+      "Standard": "ASME B16.22 / EN 1254-1",
+      "Working Pressure": "Up to 50 bar depending on temperature",
+      "Connection": "Female-to-Female Sweat Solder"
+    },
+    "image": "assets/images/products/hvac-maintenance-consumables.webp"
+  },
+  {
+    "id": "ref-004",
+    "name": "Liquid Line Filter Drier 5/8 ODF Solder",
+    "categorySlug": "refrigeration",
+    "subCategory": "Filter Driers & Sight Glasses",
+    "partNo": "DCL-165S-58",
+    "shortSpec": "16 cu in desiccant core, 5/8\" ODF copper sweat connections, 46 bar",
+    "description": "Solid core liquid line filter drier featuring 80% 3Å molecular sieve and 20% activated alumina for maximum moisture adsorption and organic acid removal in commercial refrigeration circuits.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Desiccant Core Volume": "16 cubic inches",
+      "Connection Size": "5/8\" ODF Solder",
+      "Core Composition": "80% Molecular Sieve / 20% Activated Alumina",
+      "Max Working Pressure": "46 bar (667 psig)",
+      "Compatible Refrigerants": "R410A, R134a, R404A, R407C, R22",
+      "Shell Finish": "Corrosion-resistant epoxy powder coating"
+    },
+    "image": "assets/images/products/valves-refrigeration.webp"
+  },
+  {
+    "id": "ref-005",
+    "name": "Moisture Liquid Sight Glass 1/2 ODF",
+    "categorySlug": "refrigeration",
+    "subCategory": "Filter Driers & Sight Glasses",
+    "partNo": "SGN-12S-ODF",
+    "shortSpec": "1/2\" ODF solder, color-changing moisture indicator ring, brass body",
+    "description": "Hermetic inline sight glass designed for direct observation of liquid refrigerant line subcooling and humidity status. Color ring transitions from green (dry) to yellow (wet) to safeguard expansion valves.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Connection": "1/2\" ODF Solder",
+      "Indicator Colors": "Green = Dry, Yellow = Caution / Wet",
+      "Body Material": "Forged high-tensile brass",
+      "Lens": "Toughened optical glass with leak-tight seal",
+      "Max Working Pressure": "45 bar (653 psig)",
+      "Working Temp": "-50°C to +80°C"
+    },
+    "image": "assets/images/products/valves-refrigeration.webp"
+  },
+  {
+    "id": "ref-006",
+    "name": "Digital Dual Pressure Controller (High / Low)",
+    "categorySlug": "refrigeration",
+    "subCategory": "Refrigeration Controls",
+    "partNo": "PRC-DUAL-HLE",
+    "shortSpec": "Adjustable HP / LP setpoints, SPDT switch contacts, IP44 enclosure",
+    "description": "Dual pressure control switch that protects refrigeration compressor units against low suction pressure (loss of charge/freeze-up) and excessive discharge condensing pressure. Features independent micro-adjustments.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Low Pressure Range": "-0.5 to 7.0 bar (Diff: 0.7 to 4.0 bar)",
+      "High Pressure Range": "8.0 to 32.0 bar (Diff: fixed ~4 bar)",
+      "Contact System": "Double SPDT snap-action contacts",
+      "Electrical Rating": "16A 250V AC resistive, 8A inductive",
+      "Pressure Connection": "1/4\" SAE flare male",
+      "Protection Class": "IP44 with splashproof cover"
+    },
+    "image": "assets/images/products/controls-electronics.webp"
+  },
+  {
+    "id": "elec-001",
+    "name": "Moulded Case Circuit Breaker (MCCB) 3P 100A 36kA",
+    "categorySlug": "electrical",
+    "subCategory": "Protection & Switchgear (MCB, MCCB, Isolators, DB Boards)",
+    "partNo": "MCCB-3P-100A-36K",
+    "shortSpec": "3-Pole, 100A rated current, 36kA breaking capacity at 415V AC",
+    "description": "Industrial grade 3-pole MCCB providing reliable overload and short-circuit protection for sub-distribution boards and motor feeders in commercial facilities. Equipped with adjustable thermal-magnetic trip units.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Number of Poles": "3 Poles",
+      "Rated Current (In)": "100 Amperes",
+      "Rated Voltage (Ue)": "400 / 415V AC 50/60Hz",
+      "Ultimate Breaking Capacity (Icu)": "36 kA @ 415V AC",
+      "Trip Unit": "Thermal-Magnetic (TMD) Adjustable",
+      "Standard": "IEC / EN 60947-2",
+      "Mechanical Life": "20,000 operations"
+    },
+    "image": "assets/images/products/protection-switchgear.webp"
+  },
+  {
+    "id": "elec-002",
+    "name": "Miniature Circuit Breaker (MCB) 1P 20A Type C 10kA",
+    "categorySlug": "electrical",
+    "subCategory": "Protection & Switchgear (MCB, MCCB, Isolators, DB Boards)",
+    "partNo": "MCB-1P-20A-C10",
+    "shortSpec": "Single pole 20A, DIN-rail mount, C-curve tripping characteristic",
+    "description": "High-breaking capacity miniature circuit breaker engineered for protection of lighting branch circuits, general power outlets, and inductive MEP loads in residential and commercial distribution boards.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Poles": "1 Pole (1 Module 18mm)",
+      "Rated Current": "20 Amperes",
+      "Tripping Curve": "Type C (5-10 In magnetic response)",
+      "Breaking Capacity": "10 kA (IEC 60898-1 / IEC 60947-2)",
+      "Mounting": "Standard 35mm DIN rail",
+      "Terminal Capacity": "Up to 25 mm² cable"
+    },
+    "image": "assets/images/products/protection-switchgear.webp"
+  },
+  {
+    "id": "elec-003",
+    "name": "XLPE Insulated Armoured Power Cable 4C x 16 sq mm",
+    "categorySlug": "electrical",
+    "subCategory": "Cables & Wiring",
+    "partNo": "CBL-4C16-SWA-CU",
+    "shortSpec": "4-Core 16mm², Plain Annealed Copper, XLPE/SWA/PVC 0.6/1kV",
+    "description": "Steel wire armoured (SWA) heavy duty mains power cable manufactured to BS 5467 / IEC 60502-1. Ideal for direct burial underground, external cable trenches, and feeder runs to MEP plant equipment.",
+    "applications": [
+      "Industrial",
+      "MEP Projects",
+      "Civil Site Work"
+    ],
+    "specs": {
+      "Conductor": "Class 2 stranded plain annealed copper (16 mm²)",
+      "Core Count": "4 Cores (Red, Yellow, Blue, Black)",
+      "Insulation": "Cross-linked Polyethylene (XLPE) 90°C",
+      "Armour": "Galvanized Steel Wire Armour (SWA)",
+      "Outer Sheath": "Extruded Black PVC (UV & flame retardant)",
+      "Voltage Rating": "600 / 1000 Volts (0.6/1 kV)",
+      "Packaging": "500m / 1000m wooden drums"
+    },
+    "image": "assets/images/products/cables-wiring.webp"
+  },
+  {
+    "id": "elec-004",
+    "name": "Perforated Heavy Duty Cable Tray 150mm x 50mm x 3M",
+    "categorySlug": "electrical",
+    "subCategory": "Cable Management (Trays, Ladders, Glands, Lugs, Conduits)",
+    "partNo": "CT-HD-150-50-GI",
+    "shortSpec": "150mm width x 50mm flange, 3 meter length, 1.5mm hot-dip GI sheet",
+    "description": "Precision cold-formed perforated cable tray with return flange for rigid cable containment in commercial MEP suspended ceilings and plant rooms. Provides high load capacity and excellent ventilation.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Dimensions": "150 mm (W) x 50 mm (H) x 3000 mm (L)",
+      "Sheet Thickness": "1.5 mm nominal",
+      "Material": "Pre-Galvanized steel to BS EN 10346 / HDG option",
+      "Design": "Return flange with slotted perforation pattern",
+      "Accessories": "Coupler plates, bends, tees, risers available"
+    },
+    "image": "assets/images/products/cable-management.webp"
+  },
+  {
+    "id": "elec-005",
+    "name": "Recessed LED Panel Light 600x600mm 40W 4000K",
+    "categorySlug": "electrical",
+    "subCategory": "Commercial & Industrial Lighting (LED Panels, Downlights, Floodlights)",
+    "partNo": "LED-PNL-6060-40W",
+    "shortSpec": "40W, 4400 lumens, 4000K Neutral White, UGR<19 flicker-free driver",
+    "description": "Ultra-slim architectural LED panel designed for standard 600x600mm ceiling grid installations in offices, commercial complexes, and healthcare buildings. Micro-prismatic diffuser prevents glare while saving 60% energy.",
+    "applications": [
+      "Commercial",
+      "Residential",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Wattage": "40 Watts",
+      "Luminous Flux": "4,400 Lumens (110 lm/W)",
+      "Color Temperature": "4000K (Neutral Daylight White)",
+      "Color Rendering (CRI)": "> 80 Ra (R9 > 10)",
+      "Glare Rating": "UGR < 19 compliant",
+      "Driver": "Independent flicker-free constant current driver",
+      "Lifetime": "50,000 Hours (L80/B10 @ 25°C)"
+    },
+    "image": "assets/images/products/commercial-industrial-lighting.webp"
+  },
+  {
+    "id": "elec-006",
+    "name": "Weatherproof Isolator Switch 4 Pole 32A IP66",
+    "categorySlug": "electrical",
+    "subCategory": "Protection & Switchgear (MCB, MCCB, Isolators, DB Boards)",
+    "partNo": "ISO-4P-32A-IP66",
+    "shortSpec": "4-Pole, 32 Amp, rotary lockable handle, IP66 waterproof housing",
+    "description": "Surface-mounted enclosed rotary disconnect switch engineered for local isolation of rooftop air conditioning units, ventilation fans, outdoor pumps, and industrial machine stations in harsh Qatar conditions.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Number of Poles": "4 Poles (3 Phase + Neutral)",
+      "Rated Current": "32 Amperes AC-22A / 25A AC-23A",
+      "Protection Degree": "IP66 dust-tight and heavy water jet protected",
+      "Enclosure": "High impact polycarbonate UV stabilized",
+      "Padlocking": "Padlockable in OFF position (up to 3 padlocks)",
+      "Cable Entries": "M20 / M25 threaded knockouts top & bottom"
+    },
+    "image": "assets/images/products/protection-switchgear.webp"
+  },
+  {
+    "id": "plumb-001",
+    "name": "PPR Pipe PN20 Hot & Cold Water 25mm x 4M",
+    "categorySlug": "plumbing",
+    "subCategory": "Piping Systems (PPR, PVC, CPVC, GI)",
+    "partNo": "PPR-P20-025-4M",
+    "shortSpec": "25mm OD x 4.2mm wall, PN20 (20 bar), Polypropylene Random Type 3",
+    "description": "High-pressure Polypropylene Random Copolymer (PP-R Type 3) pipe designed for potable hot and cold water distribution, chiller loops, and sanitary installations. Resistant to scale buildup and electrolytic corrosion.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Nominal Size": "25 mm Outer Diameter (OD)",
+      "Pressure Rating": "PN20 (20 Bar at 20°C / 10 Bar at 70°C)",
+      "Standard": "DIN 8077 / DIN 8078 / EN ISO 15874",
+      "Length": "4.0 Meters per length",
+      "Material": "Borealis PP-R 100 virgin granulate",
+      "Jointing Method": "Socket heat fusion"
+    },
+    "image": "assets/images/products/piping-systems.webp"
+  },
+  {
+    "id": "plumb-002",
+    "name": "Cast Bronze Ball Valve Full Bore 2 inch PN25",
+    "categorySlug": "plumbing",
+    "subCategory": "Valves (Ball, Gate, Check, Butterfly, PRVs, Float)",
+    "partNo": "BV-BRZ-FB-050",
+    "shortSpec": "2\" (DN50), Full bore, Threaded BSP, Bronze body, PTFE seats",
+    "description": "Heavy duty bronze manual ball valve featuring blowout-proof stem and PTFE seats. Recommended for domestic water riser systems, HVAC chilled water, and compressed air systems requiring dezincification resistance.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Nominal Size": "2\" (DN50)",
+      "Pressure Class": "PN25 (360 psi WOG)",
+      "Body Material": "Cast Bronze (ASTM B62 / BS EN 1982 CC491K)",
+      "Ball & Stem": "Chrome-plated brass / Stainless steel optional",
+      "Seats & Seals": "Pure PTFE (Teflon)",
+      "Connections": "Female x Female BSP parallel threads to ISO 228"
+    },
+    "image": "assets/images/products/valves.webp"
+  },
+  {
+    "id": "plumb-003",
+    "name": "Ductile Iron Flanged Gate Valve DN100 PN16",
+    "categorySlug": "plumbing",
+    "subCategory": "Valves (Ball, Gate, Check, Butterfly, PRVs, Float)",
+    "partNo": "GV-DI-DN100-PN16",
+    "shortSpec": "DN100, Resilient seated EPDM wedge, PN16 flanged, non-rising stem",
+    "description": "Resilient seated gate valve engineered for main water supply networks, fire protection branch lines, and HVAC district cooling sub-stations. Fusion-bonded epoxy coated inside and outside for maximum longevity.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Nominal Diameter": "DN100 (4 Inch)",
+      "Working Pressure": "PN16 (16 Bar)",
+      "Body & Bonnet": "Ductile Iron GGG50 / EN-GJS-500-7",
+      "Wedge": "Ductile Iron fully vulcanized with EPDM",
+      "Stem": "Stainless Steel 420 / 304 Non-Rising",
+      "Flanges": "Drilled to EN 1092-2 PN16 / BS 4504",
+      "Coating": "WRAS approved Fusion Bonded Epoxy (min 250 µm)"
+    },
+    "image": "assets/images/products/valves.webp"
+  },
+  {
+    "id": "plumb-004",
+    "name": "Dual Booster Pump Set 5.5 kW Variable Speed",
+    "categorySlug": "plumbing",
+    "subCategory": "Pumps & Pressure Control (Booster, Transfer, Circulation, Pressure Vessels)",
+    "partNo": "PMP-BOOST-2X55-VFD",
+    "shortSpec": "2 x 5.5 kW vertical multistage pumps, duty/assist/standby with VFD panel",
+    "description": "Packaged skid-mounted dual pressure booster pump system for high-rise residential towers and commercial buildings. Includes integrated variable frequency drives (VFD) for constant pressure and substantial power savings.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Pump Configuration": "Dual pump (Duty / Standby or Duty / Assist)",
+      "Motor Power": "2 x 5.5 kW (7.5 HP) 380V 3Ph 50Hz IE3",
+      "Flow Rate": "Up to 35 m³/hr per pump at 70m head",
+      "Wetted Parts": "AISI 304 Stainless Steel stages and impellers",
+      "Control Panel": "Smart PLC with dual inverter VFD control",
+      "Manifolds": "Stainless steel suction and discharge headers"
+    },
+    "image": "assets/images/products/pumps-pressure-control.webp"
+  },
+  {
+    "id": "plumb-005",
+    "name": "Pre-pressurized Membrane Pressure Vessel 100L 10 Bar",
+    "categorySlug": "plumbing",
+    "subCategory": "Pumps & Pressure Control (Booster, Transfer, Circulation, Pressure Vessels)",
+    "partNo": "PV-100L-10BAR",
+    "shortSpec": "100 Litres vertical capacity, replaceable EPDM membrane, 10 bar rating",
+    "description": "Vertical diaphragm expansion / pressure vessel designed for water boosting systems and closed HVAC thermal expansion loops. Protects water piping from hydraulic water hammer and reduces pump starts.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Capacity": "100 Litres",
+      "Max Working Pressure": "10 Bar (145 psi)",
+      "Pre-charge Pressure": "2.0 Bar (nitrogen factory charged)",
+      "Membrane Material": "Replaceable potable water grade EPDM",
+      "Connection": "1\" BSP male stainless steel connector",
+      "Operating Temperature": "-10°C to +99°C"
+    },
+    "image": "assets/images/products/pumps-pressure-control.webp"
+  },
+  {
+    "id": "plumb-006",
+    "name": "PPR Equal Tee Fitting 32mm PN25",
+    "categorySlug": "plumbing",
+    "subCategory": "Pipe Fittings (Elbows, Tees, Couplings, Reducers, Flanges)",
+    "partNo": "PPR-TEE-EQ-032",
+    "shortSpec": "32mm socket weld equal tee, Polypropylene Random copolymer PN25",
+    "description": "High-grade 32mm three-way branch fitting for PPR hot and cold water distribution pipework. Formed by injection molding to ensure uniform wall thickness and zero joint leakage after thermal fusion welding.",
+    "applications": [
+      "Residential",
+      "Commercial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Size": "32 mm x 32 mm x 32 mm",
+      "Pressure Rating": "PN25",
+      "Standard": "DIN 16962 / EN ISO 15874",
+      "Fusion Temperature": "260°C ± 10°C",
+      "Color": "Standard Green / White"
+    },
+    "image": "assets/images/products/pipe-fittings.webp"
+  },
+  {
+    "id": "bld-001",
+    "name": "Deformed Steel Reinforcement Rebar B500B 16mm",
+    "categorySlug": "building",
+    "subCategory": "Structural & Civil (Steel, Mesh, Timber, Plywood, Formwork)",
+    "partNo": "STL-REBAR-16MM-GRB",
+    "shortSpec": "16mm diameter, Grade B500B / BS 4449, high yield strength 500 N/mm²",
+    "description": "High-tensile hot-rolled ribbed rebar for concrete structural foundations, columns, retaining walls, and civil infrastructure. Produced to BS 4449 Grade B500B and Qatar Construction Specifications (QCS) standards.",
+    "applications": [
+      "Civil Site Work",
+      "MEP Projects",
+      "Industrial"
+    ],
+    "specs": {
+      "Diameter": "16 mm nominal",
+      "Steel Grade": "B500B / BS 4449 / ASTM A615 Grade 60",
+      "Yield Strength (Re)": "≥ 500 MPa",
+      "Standard Length": "12.0 Meters bundle",
+      "Ductility Ratio (Rm/Re)": "≥ 1.08",
+      "Compliance": "QCS 2014 / Qatar Steel Approved"
+    },
+    "image": "assets/images/products/structural-civil-materials.webp"
+  },
+  {
+    "id": "bld-002",
+    "name": "SBS Modified Bituminous Waterproofing Membrane 4mm",
+    "categorySlug": "building",
+    "subCategory": "Waterproofing & Sealants",
+    "partNo": "WPR-SBS-4MM-TORCH",
+    "shortSpec": "4mm thickness, non-woven polyester reinforced, torch-applied, 10m roll",
+    "description": "Elastomeric SBS (Styrene Butadiene Styrene) modified bitumen waterproofing membrane reinforced with heavy spunbond polyester mat. Outstanding flexibility at low temperatures and resistance to subterranean water pressure.",
+    "applications": [
+      "Civil Site Work",
+      "Commercial",
+      "Industrial"
+    ],
+    "specs": {
+      "Thickness": "4.0 mm (± 5%)",
+      "Reinforcement": "Spunbond non-woven polyester mat (180 g/m²)",
+      "Roll Dimensions": "1 Meter wide x 10 Meters long",
+      "Top Finish": "Fine silica sand / PE film",
+      "Application": "Torch-on application with welded seams",
+      "Elongation at Break": "≥ 40% Longitudinal & Transverse"
+    },
+    "image": "assets/images/products/waterproofing-sealants.webp"
+  },
+  {
+    "id": "bld-003",
+    "name": "High Performance Polyurethane Joint Sealant 600ml",
+    "categorySlug": "building",
+    "subCategory": "Waterproofing & Sealants",
+    "partNo": "PU-SLNT-600-GRY",
+    "shortSpec": "600ml foil sausage, grey, single-component moisture-curing polyurethane",
+    "description": "Professional grade elastomeric polyurethane sealant designed for expansion joints in civil building facades, precast concrete panels, perimeter window seals, and floor joints. Excellent UV and weathering resistance.",
+    "applications": [
+      "Civil Site Work",
+      "Commercial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Packaging": "600 ml Foil Sausage",
+      "Color": "Concrete Grey (White & Black available)",
+      "Movement Capability": "± 25% (ISO 11600 Class 25LM)",
+      "Skinning Time": "Approx 60-90 minutes at 23°C 50% RH",
+      "Shore A Hardness": "Approx 25-30",
+      "Application Temperature": "+5°C to +40°C"
+    },
+    "image": "assets/images/products/waterproofing-sealants.webp"
+  },
+  {
+    "id": "bld-004",
+    "name": "High Density Rockwool Insulation Slab 50mm 80kg/m3",
+    "categorySlug": "building",
+    "subCategory": "Insulation (Rockwool, Glasswool, XPS)",
+    "partNo": "INS-RW-50MM-80K",
+    "shortSpec": "50mm thick, 80 kg/m³ density, non-combustible Euroclass A1, 1.2 x 0.6m",
+    "description": "Rigid stone wool insulation boards engineered for thermal insulation, firestopping barriers, and acoustic soundproofing in drywall partitions, curtain walls, and mechanical equipment enclosures.",
+    "applications": [
+      "Commercial",
+      "Industrial",
+      "MEP Projects"
+    ],
+    "specs": {
+      "Dimensions": "1200 mm x 600 mm x 50 mm thick",
+      "Density": "80 kg/m³",
+      "Fire Classification": "Euroclass A1 Non-combustible (BS 476 Part 4)",
+      "Thermal Conductivity": "0.035 W/m.K @ 20°C",
+      "Melting Point": "> 1000°C",
+      "Acoustic Absorption": "NRC up to 0.95"
+    },
+    "image": "assets/images/products/insulation-materials.webp"
+  },
+  {
+    "id": "bld-005",
+    "name": "Hot Dip Galvanized Threaded Rod M12 x 3M Grade 8.8",
+    "categorySlug": "building",
+    "subCategory": "Fasteners & Hardware",
+    "partNo": "TR-HDG-M12-3M-88",
+    "shortSpec": "M12 metric thread, 3000mm length, Grade 8.8 steel, HDG coated 45 µm",
+    "description": "High-strength structural all-thread tie rod utilized extensively for MEP support brackets, cable tray trapeze hangers, ducted AC suspensions, and seismic pipe bracing systems.",
+    "applications": [
+      "MEP Projects",
+      "Commercial",
+      "Industrial"
+    ],
+    "specs": {
+      "Diameter & Pitch": "M12 x 1.75 mm metric coarse thread",
+      "Overall Length": "3000 mm (3.0 Meters)",
+      "Material Grade": "High Tensile Carbon Steel Grade 8.8",
+      "Tensile Strength": "800 N/mm²",
+      "Surface Finish": "Hot Dip Galvanized (HDG to ISO 1461 min 45 microns)",
+      "Matching Hardware": "HDG channel nuts, spring washers, hex nuts"
+    },
+    "image": "assets/images/products/fasteners-hardware.webp"
+  },
+  {
+    "id": "bld-006",
+    "name": "Fiber Reinforced Abrasive Cutting Disc 355x3x25.4mm",
+    "categorySlug": "building",
+    "subCategory": "Site Consumables (Abrasives, Cutting Discs, Tapes, Adhesives)",
+    "partNo": "ABR-CUT-355-ST",
+    "shortSpec": "14\" (355mm) x 3.0mm x 25.4mm bore, double fiberglass mesh reinforcement",
+    "description": "Heavy duty chop saw abrasive cutting wheel engineered for fast, clean cutting of structural steel sections, rebar, angle iron, and GI pipes on construction and fabrication job sites.",
+    "applications": [
+      "Civil Site Work",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Wheel Size": "355 mm (14\") Diameter x 3.0 mm Thickness x 25.4 mm Bore",
+      "Max Operating Speed": "4,400 RPM (80 m/s)",
+      "Abrasive Grain": "Premium Aluminum Oxide (A24/30 S BF)",
+      "Reinforcement": "Dual layers of high-tensile fiberglass mesh",
+      "Safety Standard": "EN 12413 / oSa certified"
+    },
+    "image": "assets/images/products/site-consumables.webp"
+  },
+  {
+    "id": "safe-001",
+    "name": "Vented Industrial Safety Helmet with Ratchet Suspension",
+    "categorySlug": "safety",
+    "subCategory": "Head & Face Protection",
+    "partNo": "PPE-HLM-VENT-WHT",
+    "shortSpec": "High-density ABS shell, 6-point textile harness, wheel ratchet adjustment",
+    "description": "Lightweight vented industrial hard hat designed for hot climate construction environments. Features ventilation slots, universal side accessory slots for earmuffs/visors, and a sweat-absorbing brow pad.",
+    "applications": [
+      "Civil Site Work",
+      "Industrial",
+      "MEP Projects",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Shell Material": "UV-Stabilized High Impact ABS",
+      "Suspension": "6-Point textile webbing with smooth wheel ratchet",
+      "Size Range": "52 to 64 cm head circumference",
+      "Standard": "EN 397:2012+A1:2012 / ANSI Z89.1 Type 1 Class C",
+      "Features": "Integrated rain gutter, 30mm accessory slots, chin strap points",
+      "Color": "White (Yellow, Blue, Green, Red available upon request)"
+    },
+    "image": "assets/images/products/head-face-protection.webp"
+  },
+  {
+    "id": "safe-002",
+    "name": "Class 2 High-Visibility Reflective Safety Vest",
+    "categorySlug": "safety",
+    "subCategory": "Body Protection & Workwear",
+    "partNo": "PPE-VST-HV-YEL-L",
+    "shortSpec": "Fluorescent yellow 120 gsm polyester, 2-inch wide silver reflective tape",
+    "description": "Certified high-visibility safety vest engineered for maximum day and night conspicuity on active civil highways, construction sites, and logistics yards. Includes clear ID badge pocket and front zipper closure.",
+    "applications": [
+      "Civil Site Work",
+      "Commercial",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Material": "100% Breathable knitted polyester (120 g/m²)",
+      "Reflective Stripes": "2\" Wide high-performance glass-bead retroreflective tape",
+      "Certification": "EN ISO 20471:2013 Class 2 / ANSI/ISEA 107 Class 2",
+      "Closure": "Heavy duty front nylon zipper",
+      "Pockets": "Clear ID holder, 2 waist cargo pockets, pen pocket",
+      "Size": "Large / XL / XXL"
+    },
+    "image": "assets/images/products/body-protection-workwear.webp"
+  },
+  {
+    "id": "safe-003",
+    "name": "Full Body Safety Harness with Double Lanyard & Shock Absorber",
+    "categorySlug": "safety",
+    "subCategory": "Fall Protection & Site Security",
+    "partNo": "PPE-HARN-DBL-EN361",
+    "shortSpec": "Dorsal & sternal D-rings, dual elasticated lanyard, energy absorber, scaffolding hooks",
+    "description": "Complete fall arrest harness system designed for high-elevation construction, scaffolding erection, and rooftop MEP maintenance. Features dual-leg lanyard enabling 100% continuous tie-off while transitioning between anchor points.",
+    "applications": [
+      "Civil Site Work",
+      "Industrial",
+      "MEP Projects",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Webbing": "45 mm High tenacity polyester (tensile > 25 kN)",
+      "Attachment Points": "Dorsal D-ring + Sternal chest loops",
+      "Lanyard": "Double 1.8m elasticated webbing with integrated tear-webbing absorber",
+      "Connectors": "Screw-lock carabiner + 2 forged scaffold hooks (55mm gate)",
+      "Standards": "EN 361:2002 (Harness) & EN 355:2002 (Energy Absorber)",
+      "Max User Weight": "140 kg including equipment"
+    },
+    "image": "assets/images/products/fall-protection-site-security.webp"
+  },
+  {
+    "id": "safe-004",
+    "name": "S3 SRC Steel Toe Anti-Perforation Safety Boots",
+    "categorySlug": "safety",
+    "subCategory": "Hand & Foot Protection",
+    "partNo": "PPE-BOOT-S3-SRC-42",
+    "shortSpec": "Water-resistant full grain leather, 200J steel toe cap, Kevlar puncture midsole",
+    "description": "Heavy duty construction work boots featuring steel protective toe cap, penetration-resistant composite midsole, and dual-density PU anti-slip oil-resistant outsole for civil work conditions.",
+    "applications": [
+      "Civil Site Work",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Safety Classification": "EN ISO 20345:2011 S3 SRC",
+      "Toe Cap": "Impact resistant 200 Joules steel toe",
+      "Midsole": "Flexible non-metallic anti-penetration midsole (1100 N)",
+      "Upper": "Water-resistant breathable full grain black leather",
+      "Outsole": "Dual density PU injected sole with anti-static energy absorption heel",
+      "Sizes": "Euro 40 to 46"
+    },
+    "image": "assets/images/products/hand-foot-protection.webp"
+  },
+  {
+    "id": "safe-005",
+    "name": "Cut-Resistant Level 5 Nitrile Sandy Work Gloves",
+    "categorySlug": "safety",
+    "subCategory": "Hand & Foot Protection",
+    "partNo": "PPE-GLV-CUT5-NIT-L",
+    "shortSpec": "13-gauge HPPE cut level D/5 liner, sandy nitrile palm dip for wet/oil grip",
+    "description": "High performance cut-resistant work gloves combining maximum blade protection with superb tactile dexterity. Designed for metal handling, glass installation, and mechanical pipe assembly.",
+    "applications": [
+      "Industrial",
+      "MEP Projects",
+      "Civil Site Work",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Cut Level": "EN 388:2016 Level 4X43D (ANSI Cut A4 / Level 5)",
+      "Liner": "13-Gauge seamless HPPE (High Performance Polyethylene) blend",
+      "Coating": "Sandy finish microporous nitrile palm coating",
+      "Grip Performance": "Exceptional grip on oily and dry metal surfaces",
+      "Cuff": "Elasticated knit wrist with color-coded hem for sizing"
+    },
+    "image": "assets/images/products/hand-foot-protection.webp"
+  },
+  {
+    "id": "safe-006",
+    "name": "FFP3 Valved Particulate Respirator Dust Mask (Pack of 10)",
+    "categorySlug": "safety",
+    "subCategory": "Respiratory Protection",
+    "partNo": "PPE-RESP-FFP3-V10",
+    "shortSpec": "FFP3 filtration efficiency ≥ 99%, exhalation cool valve, adjustable nose clip",
+    "description": "Cup-shaped disposable respirator offering highest level respiratory protection against fine toxic dusts, silica, asbestos fibers, concrete grinding particulates, and chemical aerosols.",
+    "applications": [
+      "Civil Site Work",
+      "Industrial",
+      "Facilities Maintenance"
+    ],
+    "specs": {
+      "Protection Class": "FFP3 NR D (EN 149:2001 + A1:2009)",
+      "Filtration Efficiency": "≥ 99% against solid and liquid aerosols",
+      "Exhalation Valve": "High-flow silicone exhalation valve to minimize heat/moisture",
+      "Fit Features": "Four-point woven elastic headbands with cushioned foam nose seal",
+      "Packaging": "Box of 10 individually sealed masks"
+    },
+    "image": "assets/images/products/respiratory-protection.webp"
+  }
+]
