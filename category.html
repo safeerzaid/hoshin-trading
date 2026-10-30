@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/hoshin.css?v=1792747800">
   <link rel="stylesheet" href="css/hoshin-v4.css?v=1793015596">
+  <link rel="stylesheet" href="css/hoshin-axion.css?v=65">
 </head>
 <body class="">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -121,16 +122,15 @@
       </div>
     </section>
 
-    <section class="h-section h-ink h-sourcing-banner">
+    <section class="v-cta-wrap">
       <div class="h-wrap">
-        <div class="h-sourcing-banner__grid">
-          <div class="h-sourcing-banner__text">
-            <p class="h-label" style="margin-bottom:24px">Custom Sourcing &middot; Doha, Qatar</p>
-            <h2 class="h-h2" data-split>Need a non-catalog or high-spec component?</h2>
-            <p class="h-lead" style="margin-top:24px;max-width:46ch;color:var(--on-dark-muted)" data-reveal>Our engineering sourcing team handles obsolete model replacements and equivalent alternatives subject to technical approval.</p>
-          </div>
-          <div class="h-sourcing-banner__cta" data-reveal>
-            <a href="contact.html" class="h-btn h-btn--light"><span class="h-btn__txt"><span>Contact Sourcing Team</span><span aria-hidden="true">Contact Sourcing Team</span></span><svg class="h-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+        <div class="v-cta">
+          <div class="v-cta__bg"><img src="assets/images/products-v3/hvac-electrical-components.webp" alt="" loading="lazy" width="900" height="900"></div>
+          <div class="v-cta__body">
+            <p class="h-label h-label--light">Custom Sourcing &middot; Doha, Qatar</p>
+            <h2 class="v-cta__title" data-split>Need a <span class="h-ul">non-catalog</span> or high-spec component?</h2>
+            <p class="v-cta__copy" data-reveal>Our engineering sourcing team handles obsolete model replacements and equivalent alternatives subject to technical approval.</p>
+            <div data-reveal><a href="contact.html" class="h-btn h-btn--gold"><span class="h-btn__txt"><span>Contact Sourcing Team</span><span aria-hidden="true">Contact Sourcing Team</span></span><svg class="h-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
           </div>
         </div>
       </div>
@@ -181,7 +181,8 @@
   <script src="js/ScrollTrigger.min.js" defer></script>
   <script src="js/products-data.js?v=1792733306"></script>
   <script src="js/inquiry.js?v=1792732574"></script>
-  <script src="js/site.js?v=1793008118" defer></script>
+  <script src="js/hoshin-axion.js?v=6"></script>
+  <script src="js/site.js?v=1793008123" defer></script>
   <script>
 function hoshinCardHTML(p) {
       var esc = function (s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); };

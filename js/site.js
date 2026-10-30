@@ -261,11 +261,18 @@
       var words = chars ? $$('.c > span', el) : $$('.w > span', el);
       if (hasGSAP) {
         gsap.set(words, { yPercent: chars ? 115 : 110 });
+        // Inline images inside the heading (e.g. the pill photo) join the reveal
+        // at their place in the sentence instead of showing from the start.
+        var pills = $$('.v-pill-img', el);
+        if (pills.length) {
+          gsap.set(pills, { scale: 0, opacity: 0 });
+          words = $$(chars ? '.c > span, .v-pill-img' : '.w > span, .v-pill-img', el);
+        }
         var immediate = el.hasAttribute('data-split-now');
         var extra = parseFloat(el.getAttribute('data-split-delay') || '0');
         if (immediate && el.closest('.h-banner')) extra += 0.55; // wait for the banner curtain
         var anim = function () {
-          gsap.to(words, { yPercent: 0, duration: chars ? 1.1 : 1.15, ease: 'expo.out', stagger: chars ? 0.028 : 0.045, delay: (immediate ? 0.15 : 0) + extra });
+          gsap.to(words, { yPercent: 0, scale: 1, opacity: 1, duration: chars ? 1.1 : 1.15, ease: 'expo.out', stagger: chars ? 0.028 : 0.045, delay: (immediate ? 0.15 : 0) + extra });
         };
         if (immediate) { anim(); }
         else {
@@ -723,7 +730,7 @@
   /* Core Specializations: hovering a row wipes its photo into the sticky card */
   function initSpec() {
     var grid = $('.v-scards');
-    if (grid && hasGSAP && !reduceMotion) {
+    if (grid && !grid.hasAttribute('data-ax-rise') && hasGSAP && !reduceMotion) {
       gsap.from($$('.v-scard', grid), { y: 60, opacity: 0, duration: 1.1, ease: 'expo.out', stagger: 0.08, clearProps: 'transform,opacity', scrollTrigger: { trigger: grid, start: 'top 82%', once: true } });
     }
     var root = $('[data-spec]');
@@ -768,15 +775,15 @@
   /* V4: stacking step cards — earlier cards ease back as the next lands */
   function initStackCards() {
     var cards = $$('.v-step');
-    if (!cards.length || !hasGSAP || reduceMotion) return;
+    if (!cards.length || !hasGSAP || reduceMotion || document.querySelector('.v-process[data-ax-grid]')) return;
     cards.forEach(function (card, i) {
       var next = cards[i + 1];
       if (!next) return;
       // As the next card lands, the old one shrinks a little and tilts to one side
       // (alternating), so the edges of earlier steps peek out behind the stack.
-      var tilt = (i % 2 ? 1 : -1) * (window.innerWidth < 640 ? 2 : 3.2);
+      var tilt = 0; // straight stack, no side tilt
       gsap.to(card, {
-        scale: 0.95, rotation: tilt, ease: 'none',
+        scale: 0.94, rotation: tilt, ease: 'none',
         scrollTrigger: {
           trigger: next, scrub: true, invalidateOnRefresh: true,
           start: function () { return 'top ' + (parseFloat(getComputedStyle(next).top) + card.offsetHeight * 0.6) + 'px'; },
@@ -806,9 +813,35 @@
         btns.forEach(function (b, j) { b.classList.toggle('is-active', j === i); b.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
         tabs.forEach(function (t, j) { t.classList.toggle('is-active', j === i); });
       }
+      var cur = 0;
+      function go(i) { if (i !== cur) { cur = i; show(i); } }
+      // Pinned mode (desktop): the section stays in place and the steps advance
+      // one by one as you scroll; clicking a step jumps the scroll to it.
+      var pinWrap = root.closest('[data-tabs-pin]');
+      var desktop = window.matchMedia('(min-width: 992px)').matches;
+      if (pinWrap && desktop && !reduceMotion) {
+        pinWrap.classList.add('is-pinned');
+        pinWrap.style.setProperty('--steps', btns.length);
+        var onScroll = function () {
+          var r = pinWrap.getBoundingClientRect(), span = r.height - window.innerHeight;
+          var p = span > 0 ? Math.min(0.9999, Math.max(0, -r.top / span)) : 0;
+          go(Math.floor(p * btns.length));
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+        btns.forEach(function (b, i) {
+          b.addEventListener('click', function () {
+            var top = pinWrap.getBoundingClientRect().top + window.pageYOffset;
+            var span = pinWrap.offsetHeight - window.innerHeight;
+            var y = top + span * (i + 0.5) / btns.length;
+            if (lenis) lenis.scrollTo(y, { duration: 0.9 }); else window.scrollTo({ top: y, behavior: 'smooth' });
+          });
+        });
+        onScroll();
+        return;
+      }
       btns.forEach(function (b, i) {
-        b.addEventListener('click', function () { show(i); });
-        b.addEventListener('mouseenter', function () { if (finePointer) show(i); });
+        b.addEventListener('click', function () { go(i); });
       });
     });
   }

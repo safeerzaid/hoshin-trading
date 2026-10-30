@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/hoshin.css?v=1792747800">
   <link rel="stylesheet" href="css/hoshin-v4.css?v=1793015596">
+  <link rel="stylesheet" href="css/hoshin-axion.css?v=65">
 </head>
 <body class="has-hero">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -103,25 +104,16 @@
   <main id="main-content">
 
     <!-- HERO -->
-    <section class="h-hero h-hero--banner v-hero" id="home">
-      <div class="h-hero__bg" aria-hidden="true">
-        <img src="assets/images/v3/banner-construction.jpg?v=3" alt="" width="2400" height="1339" fetchpriority="high">
-        <div class="h-hero__shade"></div>
-      </div>
-      <div class="h-wrap h-hero__inner v-hero__inner">
-        <div><p class="h-label h-label--light" data-reveal>Est. Strategic Sourcing Partner</p></div>
-        <h1 class="v-hero__title" data-split data-split-now>
-          <span class="line">Global Sourcing.</span>
-          <span class="line line--2">The Way Forward.</span>
-        </h1>
-        <div class="v-hero__row" data-reveal data-delay="0.4">
-          <p class="v-hero__sub">Specialized engineering materials and supply solutions for HVAC, Electrical, Plumbing, Building Materials, and Safety Equipment. Sourced Globally. Supplied Reliably.</p>
-          <div class="v-hero__cta">
-            <a href="products.html" class="h-btn h-btn--gold"><span class="h-btn__txt"><span>Explore All Products</span><span aria-hidden="true">Explore All Products</span></span><svg class="h-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-            <a class="h-link" href="contact.html">Submit an Enquiry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-          </div>
+    <section class="ax-hero2" id="home" aria-labelledby="hero-title">
+      <div class="ax-hero2__media"><img src="assets/images/v3/ref-copper-fittings.jpg" alt="Copper and brass refrigeration fittings" width="1024" height="683" fetchpriority="high"></div>
+      <div class="h-wrap ax-hero2__inner">
+        <h1 class="ax-hero2__title" id="hero-title"><span>Global Sourcing.</span><span>The Way Forward.</span></h1>
+        <div class="ax-hero2__row">
+          <p>Specialized engineering materials and supply solutions for HVAC, Electrical, Plumbing, Building Materials, and Safety Equipment. Sourced Globally. Supplied Reliably.</p>
+          <div class="ax-btns"><a class="ax-btn ax-btn--light" href="products.html">Explore Product Catalog <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></i></a><a class="ax-btn ax-btn--ghost" href="contact.html">Submit an Enquiry</a></div>
         </div>
       </div>
+      <a class="ax-hero2__scroll" href="#about" aria-label="Scroll to company overview"><span></span></a>
     </section>
 
     <!-- CATEGORY STRIP -->
@@ -133,19 +125,17 @@
     </div>
 
     <!-- COMPANY OVERVIEW -->
-    <section class="h-section" id="about">
-      <div class="h-wrap">
-        <div class="v-about">
-          <div class="v-about__media"><div class="h-media h-media--parallax" data-reveal="clip" data-parallax="10"><img src="assets/images/v3/eng-vest.jpg" alt="Site engineer overseeing works" loading="lazy" width="1024" height="683"></div></div>
-          <div class="v-about__body">
-            <p class="h-label">Company Overview</p>
-            <h2 class="v-about__lead" data-split>Connecting Requirements with the <span class="h-ul">Right Direction</span></h2>
-            <p class="v-about__copy" data-reveal>Hoshin Trading is a specialized engineering materials trading and sourcing company serving the growing needs of Qatar&rsquo;s construction, MEP, facility management, and maintenance sectors. We go beyond simply supplying off-the-shelf items&mdash;we analyze your technical requirements, identify compatible products, and leverage global supply chains to deliver reliable procurement solutions.</p>
-            <div data-reveal><a href="about.html" class="h-btn h-btn--ghost h-btn--sm"><span class="h-btn__txt"><span>About Us</span><span aria-hidden="true">About Us</span></span><svg class="h-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
-          </div>
+    <section class="h-section ax-about-sec" id="about">
+      <div class="ax-about">
+        <figure class="ax-about__img" data-ax-clip><img src="assets/images/products-v3/valves-refrigeration.webp" alt="Expansion valve, solenoid valve and copper filter drier" loading="lazy" width="900" height="900"></figure>
+        <div class="ax-about__body">
+          <p class="h-label" data-ax-up>Company Overview</p>
+          <h2 class="ax-about__title" data-ax-up>Connecting requirements with the <span>right direction.</span></h2>
+          <p class="ax-about__text" data-ax-up>Hoshin Trading is a specialized engineering materials trading and sourcing company serving Qatar&rsquo;s construction, MEP, facility management, and maintenance sectors. We go beyond off-the-shelf supply&mdash;we analyze your technical requirements, identify compatible products, and leverage global supply chains to deliver reliable procurement solutions.</p>
+          <div data-ax-up><a class="ax-btn" href="about.html">About Hoshin Trading <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></i></a></div>
         </div>
       </div>
-      <div class="v-gallery" aria-hidden="true"><div class="v-gallery__track"><div class="v-gallery__item v-gallery__item--w2"><img src="assets/images/v3/wh-hall.jpg" alt="Industrial warehouse hall" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w1"><img src="assets/images/v3/site-aerial.jpg" alt="Site worker on a reinforced deck" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w2"><img src="assets/images/v3/eng-surveyors.jpg" alt="Engineers surveying a site" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w1"><img src="assets/images/v3/plumb-pumps.jpg" alt="Booster pump room" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w3"><img src="assets/images/v3/safety-hardhats.jpg" alt="Safety helmets" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w2"><img src="assets/images/v3/port-terminal.jpg" alt="Container terminal" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w1"><img src="assets/images/v3/steel-mesh.jpg" alt="Reinforcement steel mesh" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w2"><img src="assets/images/v3/weld-site.jpg" alt="Welder fabricating steel" loading="lazy" width="1024" height="683"></div><div class="v-gallery__item v-gallery__item--w3"><img src="assets/images/v3/hvac-units.jpg" alt="Air conditioning condensers" loading="lazy" width="1024" height="683"></div></div></div>
+      <div class="v-gallery" aria-label="Featured products"><div class="ax-gallery-head"><div style="display:grid;gap:12px"><p class="h-label">Featured products</p><h2>Spare parts &amp; materials from every category</h2></div><a class="ax-btn ax-btn--line" href="products.html">View all products</a></div><div class="v-gallery__track" data-ax-shuffle><a class="v-gallery__item ax-gitem" href="category.html?cat=hvac&amp;sub=Compressors%20%28Rotary%2C%20Scroll%2C%20Reciprocating%29"><img src="assets/images/products-v3/compressors.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">HVAC</span><span class="ax-gitem__name">Scroll Compressor 3 TR R410A</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=hvac&amp;sub=Motors%20%26%20Fan%20Components"><img src="assets/images/products-v3/motors-fan-components.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">HVAC</span><span class="ax-gitem__name">Condenser Fan Motor 1/3 HP 850 RPM</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=hvac&amp;sub=Controls%20%26%20Electronics%20%28PCBs%2C%20Thermostats%2C%20Sensors%29"><img src="assets/images/products-v3/controls-electronics.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">HVAC</span><span class="ax-gitem__name">Universal AC Inverter Control Board / PCB</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=hvac&amp;sub=Valves%20%28Expansion%2C%20Solenoid%29"><img src="assets/images/products-v3/valves-refrigeration.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">HVAC</span><span class="ax-gitem__name">Thermostatic Expansion Valve (TXV) R410A</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=hvac&amp;sub=Electrical%20Components%20%28Capacitors%2C%20Contactors%2C%20Overload%20Relays%29"><img src="assets/images/products-v3/hvac-electrical-components.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">HVAC</span><span class="ax-gitem__name">Heavy Duty Dual Run Capacitor 50+5 uF 440V</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=refrigeration&amp;sub=Copper%20Fittings"><img src="assets/images/products-v3/p-copper-elbow.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Refrigeration</span><span class="ax-gitem__name">Copper Elbow 90° Long Radius 7/8 inch</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=electrical&amp;sub=Cables%20%26%20Wiring"><img src="assets/images/products-v3/cables-wiring.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Electrical</span><span class="ax-gitem__name">XLPE Insulated Armoured Power Cable 4C x 16 sq mm</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=electrical&amp;sub=Cable%20Management%20%28Trays%2C%20Ladders%2C%20Glands%2C%20Lugs%2C%20Conduits%29"><img src="assets/images/products-v3/cable-management.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Electrical</span><span class="ax-gitem__name">Perforated Heavy Duty Cable Tray 150mm x 50mm x 3M</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=electrical&amp;sub=Commercial%20%26%20Industrial%20Lighting%20%28LED%20Panels%2C%20Downlights%2C%20Floodlights%29"><img src="assets/images/products-v3/commercial-industrial-lighting.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Electrical</span><span class="ax-gitem__name">Recessed LED Panel Light 600x600mm 40W 4000K</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=plumbing&amp;sub=Pipe%20Fittings%20%28Elbows%2C%20Tees%2C%20Couplings%2C%20Reducers%2C%20Flanges%29"><img src="assets/images/products-v3/pipe-fittings.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Plumbing</span><span class="ax-gitem__name">PPR Equal Tee Fitting 32mm PN25</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=building&amp;sub=Waterproofing%20%26%20Sealants"><img src="assets/images/products-v3/waterproofing-sealants.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Building</span><span class="ax-gitem__name">SBS Modified Bituminous Waterproofing Membrane 4mm</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=plumbing"><img src="assets/images/categories/plumbing-category.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Plumbing</span><span class="ax-gitem__name">PPR Pipes, Fittings &amp; Valves</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a><a class="v-gallery__item ax-gitem" href="category.html?cat=safety"><img src="assets/images/categories/safety-category.webp" alt="" loading="lazy" width="600" height="600"><span class="ax-gitem__cat">Safety</span><span class="ax-gitem__name">PPE &amp; Site Safety Gear</span><span class="ax-gitem__go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a></div></div>
     </section>
 
     <!-- CORE SPECIALIZATIONS -->
@@ -155,10 +145,10 @@
           <div class="v-intro__pill"><p class="h-label">Core Specializations</p></div>
           <p class="v-intro__text" data-reveal>Technical material support spanning Qatar&rsquo;s MEP, building supplies, <span class="v-muted">industrial maintenance, and site safety standards.</span></p>
         </div>
-        <div class="v-scards">
+        <div class="v-scards" data-ax-rise>
           <a class="v-scard" href="category.html?cat=hvac">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-hvac.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/categories/hvac-category.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">01</span>
             </span>
             <span class="v-scard__body">
@@ -168,7 +158,7 @@
           </a>
           <a class="v-scard" href="category.html?cat=refrigeration">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-refrigeration.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/products-v3/valves-refrigeration.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">02</span>
             </span>
             <span class="v-scard__body">
@@ -178,7 +168,7 @@
           </a>
           <a class="v-scard" href="category.html?cat=electrical">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-electrical.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/categories/electrical-category.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">03</span>
             </span>
             <span class="v-scard__body">
@@ -188,7 +178,7 @@
           </a>
           <a class="v-scard" href="category.html?cat=plumbing">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-plumbing.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/categories/plumbing-category.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">04</span>
             </span>
             <span class="v-scard__body">
@@ -198,7 +188,7 @@
           </a>
           <a class="v-scard" href="category.html?cat=building">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-building.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/categories/building-category.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">05</span>
             </span>
             <span class="v-scard__body">
@@ -208,7 +198,7 @@
           </a>
           <a class="v-scard" href="category.html?cat=safety">
             <span class="v-scard__media">
-              <img src="assets/images/v3/spec-safety.jpg" alt="" loading="lazy" width="1024" height="683">
+              <img src="assets/images/categories/safety-category.webp" alt="" loading="lazy" width="1024" height="683">
               <span class="v-scard__num">06</span>
             </span>
             <span class="v-scard__body">
@@ -223,7 +213,7 @@
     <!-- HOW WE WORK -->
     <section class="h-section h-section--tight-top" id="process">
       <div class="h-wrap">
-        <div class="v-process">
+        <div class="v-process" data-ax-grid>
           <div class="v-process__intro">
             <p class="h-label">How We Work</p>
             <h2 class="h-h2" data-split>The 6-Step <span class="h-ul">Sourcing Process</span></h2>
@@ -279,36 +269,48 @@
           <div class="v-intro__pill"><p class="h-label">Why Choose Hoshin Trading?</p></div>
           <p class="v-intro__text" data-reveal>Looking beyond conventional supply channels to deliver precision engineering materials, <span class="v-muted">speed, and proactive procurement coordination across Qatar.</span></p>
         </div>
-        <div class="v-why">
-          <div class="v-why__cell" data-reveal data-delay="0.00">
+        <div class="ax-why" data-ax-why><div class="ax-why__img"><img src="assets/images/v3/tools-sockets.jpg" alt="Chrome socket set and ratchet in a black case" loading="lazy" width="960" height="640"></div><div class="v-why">
+          <div class="v-why__cell">
             <span class="v-why__label">01<i></i></span>
             <h3 class="v-why__title">Specialized Engineering Focus</h3>
             <p class="v-why__desc">Complete material support spanning MEP, building supplies, and site safety standards.</p>
           </div>
-          <div class="v-why__cell" data-reveal data-delay="0.08">
+          <div class="v-why__cell">
             <span class="v-why__label">02<i></i></span>
             <h3 class="v-why__title">Global Sourcing Network</h3>
             <p class="v-why__desc">Looking beyond conventional channels to find hard-to-source parts.</p>
           </div>
-          <div class="v-why__cell" data-reveal data-delay="0.16">
+          <div class="v-why__cell">
             <span class="v-why__label">03<i></i></span>
             <h3 class="v-why__title">Technical Understanding</h3>
             <p class="v-why__desc">Sourcing led by specifications, compatibility, and performance requirements.</p>
           </div>
-          <div class="v-why__cell" data-reveal data-delay="0.24">
+          <div class="v-why__cell">
             <span class="v-why__label">04<i></i></span>
             <h3 class="v-why__title">Responsive Service</h3>
             <p class="v-why__desc">Fast quotation turnarounds and proactive communication.</p>
           </div>
+        </div></div>
+      </div>
+    </section>
+
+
+    <!-- BRANDS (client will send logo files) -->
+    <section class="h-section ax-brands" aria-labelledby="brands-title">
+      <div class="h-wrap">
+        <div class="ax-head">
+          <div class="ax-head__main"><p class="h-label">Brands &amp; Partners</p><h2 id="brands-title">Brands we supply</h2></div>
+          <p>Genuine components from trusted manufacturers, matched to your specification.</p>
         </div>
       </div>
+      <div class="ax-marquee"><div class="ax-marquee__track"><div class="ax-brand"><img src="assets/brands/dummy-northvane.svg" alt="Northvane (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-coreflux.svg" alt="Coreflux (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-arcwell.svg" alt="Arcwell (placeholder brand)" width="149" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-voltrion.svg" alt="Voltrion (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-pipelane.svg" alt="Pipelane (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-kelvra.svg" alt="Kelvra (placeholder brand)" width="134" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-guardrise.svg" alt="Guardrise (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-brasswell.svg" alt="Brasswell (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-ductora.svg" alt="Ductora (placeholder brand)" width="149" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-hydrova.svg" alt="Hydrova (placeholder brand)" width="149" height="32" loading="lazy"></div><div style="display:contents" aria-hidden="true"><div class="ax-brand"><img src="assets/brands/dummy-northvane.svg" alt="Northvane (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-coreflux.svg" alt="Coreflux (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-arcwell.svg" alt="Arcwell (placeholder brand)" width="149" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-voltrion.svg" alt="Voltrion (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-pipelane.svg" alt="Pipelane (placeholder brand)" width="164" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-kelvra.svg" alt="Kelvra (placeholder brand)" width="134" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-guardrise.svg" alt="Guardrise (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-brasswell.svg" alt="Brasswell (placeholder brand)" width="179" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-ductora.svg" alt="Ductora (placeholder brand)" width="149" height="32" loading="lazy"></div><div class="ax-brand"><img src="assets/brands/dummy-hydrova.svg" alt="Hydrova (placeholder brand)" width="149" height="32" loading="lazy"></div></div></div></div>
     </section>
 
     <!-- CTA -->
     <section class="v-cta-wrap">
       <div class="h-wrap">
         <div class="v-cta">
-          <div class="v-cta__bg" data-parallax="12"><img src="assets/images/v3/hero-port.jpg" alt="" loading="lazy" width="1024" height="683"></div>
+          <div class="v-cta__bg"><img src="assets/images/products-v3/compressors.webp" alt="" loading="lazy" width="900" height="900"></div>
           <div class="v-cta__body">
             <p class="h-label h-label--light">Global Sourcing Specialists</p>
             <h2 class="v-cta__title" data-split>Need a <span class="h-ul">hard-to-find part</span> or managing a project schedule?</h2>
@@ -362,7 +364,9 @@
   <script src="js/lenis.min.js" defer></script>
   <script src="js/gsap.min.js" defer></script>
   <script src="js/ScrollTrigger.min.js" defer></script>
+  <script src="js/products-data.js?v=1"></script>
   <script src="js/inquiry.js?v=1792732574"></script>
-  <script src="js/site.js?v=1793008118" defer></script>
+  <script src="js/hoshin-axion.js?v=6"></script>
+  <script src="js/site.js?v=1793008123" defer></script>
 </body>
 </html>

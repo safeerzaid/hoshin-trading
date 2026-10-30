@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/hoshin.css?v=1792747800">
   <link rel="stylesheet" href="css/hoshin-v4.css?v=1793015596">
+  <link rel="stylesheet" href="css/hoshin-axion.css?v=65">
 </head>
 <body class="">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -119,10 +120,14 @@
 
     <section class="h-section h-section--tight-top" style="padding-top:0">
       <div class="h-wrap">
-        <div id="rfq-empty-state" class="h-empty" hidden>
-          <h2>Your Inquiry List is Empty</h2>
-          <p>You have not selected any items yet. Browse our comprehensive catalog to add HVAC parts, cables, valves, or safety gear to your customized RFQ.</p>
-          <a href="products.html" class="h-btn "><span class="h-btn__txt"><span>Browse All Products</span><span aria-hidden="true">Browse All Products</span></span><svg class="h-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+        <div id="rfq-empty-state" class="h-empty ax-empty" hidden>
+          <div class="ax-empty__main">
+            <span class="ax-empty__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M12 11v6M9 14h6"/></svg></span>
+            <p class="h-label">Inquiry list</p>
+            <h2>Your inquiry list is empty.</h2>
+            <p>Browse the catalog and add HVAC parts, cables, valves or safety gear &mdash; or send us your material list and we&rsquo;ll source it for you.</p>
+            <div class="ax-btns"><a class="ax-btn" href="products.html">Browse All Products <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></i></a><a class="ax-btn ax-btn--line" href="contact.html">Send a Material List</a></div>
+          </div>
         </div>
 
         <div id="rfq-content-layout" class="h-grid h-rfq">
@@ -249,7 +254,8 @@
   <script src="js/ScrollTrigger.min.js" defer></script>
   <script src="js/products-data.js?v=1792733306"></script>
   <script src="js/inquiry.js?v=1792732574"></script>
-  <script src="js/site.js?v=1793008118" defer></script>
+  <script src="js/hoshin-axion.js?v=6"></script>
+  <script src="js/site.js?v=1793008123" defer></script>
   <script>
 document.addEventListener('DOMContentLoaded', function () {
       var emptyState = document.getElementById('rfq-empty-state');
