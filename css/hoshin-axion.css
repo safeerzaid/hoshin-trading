@@ -635,3 +635,6 @@ main > section.h-cta { background: var(--primary-dark, #05264b) !important; }
 body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2.2rem, 4.4vw, 4rem) !important; line-height: 1.02; }
 .h-phero .h-steps { margin-top: clamp(28px, 3vw, 40px); }
 .h-phero + .h-section--tight-top { padding-top: clamp(40px, 4.5vw, 72px) !important; border-top: 1px solid rgba(13,27,42,.08); }
+
+/* Real brand logos: full colour, uniform size */
+.ax-brand img { max-height: 34px !important; max-width: 130px !important; width: auto; height: auto; filter: none !important; opacity: 1 !important; }
