@@ -254,7 +254,7 @@
   <script src="js/ScrollTrigger.min.js" defer></script>
   <script src="js/products-data.js?v=1792733306"></script>
   <script src="js/inquiry.js?v=1792732574"></script>
-  <script src="js/hoshin-axion.js?v=7"></script>
+  <script src="js/hoshin-axion.js?v=6"></script>
   <script src="js/site.js?v=1793008123" defer></script>
   <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -318,15 +318,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       handleFormSubmit(document.getElementById('rfq-submission-form'), 'thank-you.html', function (fd) {
-        var file = fd.get('rfq_file');
-        var waItems = InquiryManager.getItems().map(function (it, i) {
-          return (i + 1) + '. ' + it.name + ' (Part: ' + it.partNo + ') - Qty: ' + it.qty;
-        });
-        HoshinWhatsApp.send('New Quotation Request - Hoshin Trading website', [
-          ['Name', fd.get('name')], ['Company', fd.get('company')], ['Email', fd.get('email')], ['Phone', fd.get('phone')],
-          ['Project type', fd.get('project_type')], ['Delivery date', fd.get('delivery_date')], ['Delivery location', fd.get('delivery_location')],
-          ['Notes', fd.get('additional_notes')]
-        ], (waItems.length ? ['', '*Items:*'].concat(waItems) : []).concat(file && file.name ? ['', 'Attachment: ' + file.name + ' (I will share this file in this chat)'] : []));
         try {
           localStorage.setItem('hoshin_last_rfq', JSON.stringify({
             type: 'rfq', name: fd.get('name'), company: fd.get('company'), email: fd.get('email'), phone: fd.get('phone'),

@@ -212,7 +212,7 @@
   <script src="js/gsap.min.js" defer></script>
   <script src="js/ScrollTrigger.min.js" defer></script>
   <script src="js/inquiry.js?v=1792732574"></script>
-  <script src="js/hoshin-axion.js?v=7"></script>
+  <script src="js/hoshin-axion.js?v=6"></script>
   <script src="js/site.js?v=1793008123" defer></script>
   <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -223,11 +223,6 @@ document.addEventListener('DOMContentLoaded', function () {
             phone: fd.get('phone'), category: fd.get('category'), details: fd.get('details'), date: new Date().toISOString()
           }));
         } catch (e) {}
-        var file = fd.get('spec_file');
-        HoshinWhatsApp.send('New Enquiry - Hoshin Trading website', [
-          ['Name', fd.get('name')], ['Company', fd.get('company')], ['Email', fd.get('email')], ['Phone', fd.get('phone')],
-          ['Category', fd.get('category')], ['Requirement', fd.get('details')]
-        ], file && file.name ? ['', 'Attachment: ' + file.name + ' (I will share this file in this chat)'] : []);
       });
     });
   </script>
