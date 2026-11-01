@@ -4,6 +4,25 @@
 (function () {
   'use strict';
 
+  /* Enquiries are delivered through WhatsApp (same number as the contact details).
+     Opens WhatsApp with the message filled in; the visitor presses Send there.
+     The link is kept for the thank-you page in case the pop-up was blocked. */
+  window.HoshinWhatsApp = {
+    number: '97460042255',
+    send: function (title, rows, extra) {
+      var lines = ['*' + title + '*', ''];
+      rows.forEach(function (r) {
+        var v = r[1] == null ? '' : String(r[1]).trim();
+        if (v) lines.push(r[0] + ': ' + v);
+      });
+      (extra || []).forEach(function (l) { lines.push(l); });
+      var url = 'https://wa.me/' + this.number + '?text=' + encodeURIComponent(lines.join('\n'));
+      try { sessionStorage.setItem('hoshin_wa_link', url); } catch (e) {}
+      window.open(url, '_blank', 'noopener');
+      return url;
+    }
+  };
+
   /* 1. Random product order */
   Array.prototype.forEach.call(document.querySelectorAll('[data-ax-shuffle]'), function (track) {
     var items = Array.prototype.slice.call(track.children);
