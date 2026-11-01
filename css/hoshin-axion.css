@@ -645,13 +645,13 @@ body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2
 
 /* Compact footer */
 .h-footer { padding-top: clamp(32px, 3.2vw, 44px); }
-.h-footer__top { row-gap: 24px; padding-bottom: 8px; }
+.h-footer__top { row-gap: 24px; padding-bottom: clamp(20px, 2.2vw, 30px); }
 .h-footer__brand { gap: 10px; }
 .h-footer__col { gap: 10px; }
 .h-footer__bottom { padding: 12px 0 14px; }
 
 /* Footer emblem: the Hoshin mark redrawn in vector, between two gold hairlines */
-.ax-fmark { display: flex; align-items: center; gap: clamp(20px, 3vw, 44px); padding-bottom: 14px; position: relative; }
+.ax-fmark { display: flex; align-items: center; gap: clamp(20px, 3vw, 44px); padding-bottom: clamp(20px, 2.2vw, 30px); position: relative; }
 .ax-fmark::before { content: ""; position: absolute; left: 50%; top: 42%; width: 220px; height: 130px; transform: translate(-50%, -50%); background: radial-gradient(closest-side, rgba(198,170,117,.2), transparent); pointer-events: none; }
 .ax-fmark__line { flex: 1; height: 1px; background: linear-gradient(90deg, transparent, rgba(198,170,117,.7)); transform-origin: right center; }
 .ax-fmark__line:last-child { background: linear-gradient(270deg, transparent, rgba(198,170,117,.7)); transform-origin: left center; }
