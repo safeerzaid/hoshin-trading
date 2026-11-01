@@ -4,6 +4,28 @@
 (function () {
   'use strict';
 
+  /* Footer emblem: draws itself on first view; the ring leans toward the pointer */
+  var fmark = document.querySelector('[data-ax-fmark]');
+  if (fmark && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    Array.prototype.forEach.call(fmark.querySelectorAll('.ax-fmark__shard'), function (p) { p.setAttribute('pathLength', '1'); });
+    fmark.classList.add('ax-fmark--anim');
+    var fio = new IntersectionObserver(function (entries) {
+      if (!entries[0].isIntersecting) return;
+      fmark.classList.add('is-in');
+      fio.disconnect();
+    }, { threshold: 0.4 });
+    fio.observe(fmark);
+    var foot = fmark.closest('.h-footer');
+    if (foot && window.matchMedia('(hover: hover)').matches) {
+      foot.addEventListener('pointermove', function (e) {
+        var r = fmark.getBoundingClientRect();
+        var d = (e.clientX - (r.left + r.width / 2)) / (r.width / 2);
+        fmark.style.setProperty('--ax-tilt', (Math.max(-1, Math.min(1, d)) * 14).toFixed(2) + 'deg');
+      });
+      foot.addEventListener('pointerleave', function () { fmark.style.setProperty('--ax-tilt', '0deg'); });
+    }
+  }
+
   /* 1. Random product order */
   Array.prototype.forEach.call(document.querySelectorAll('[data-ax-shuffle]'), function (track) {
     var items = Array.prototype.slice.call(track.children);
