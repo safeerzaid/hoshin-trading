@@ -638,3 +638,16 @@ body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2
 
 /* Real brand logos: full colour, uniform size */
 .ax-brand img { max-height: 34px !important; max-width: 130px !important; width: auto; height: auto; filter: none !important; opacity: 1 !important; }
+
+/* Category strip: library icons in gold, clearer labels */
+.v-strip__item { color: #33465c; }
+.v-strip__item svg { width: 28px; height: 28px; color: #8f6f33; transition: color .3s ease; }
+.v-strip__item:hover svg { color: var(--primary); }
+
+/* Compact footer */
+.h-footer { padding-top: clamp(44px, 4.5vw, 64px); }
+.h-footer__word { display: none; }
+.h-footer__top { row-gap: 32px; padding-bottom: clamp(32px, 3.5vw, 48px); }
+.h-footer__brand { gap: 10px; }
+.h-footer__col { gap: 10px; }
+.h-footer__bottom { padding: 16px 0 18px; }
