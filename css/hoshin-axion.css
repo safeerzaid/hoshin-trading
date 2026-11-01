@@ -639,10 +639,9 @@ body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2
 /* Real brand logos: full colour, uniform size */
 .ax-brand img { max-height: 34px !important; max-width: 130px !important; width: auto; height: auto; filter: none !important; opacity: 1 !important; }
 
-/* Category strip: trade-specific Material Symbols icons */
-.v-strip__item { gap: 12px; color: #0d1b2a; font-size: 1.05rem; }
-.v-strip__item svg { width: 36px; height: 36px; color: var(--primary); }
-.v-strip__item:hover { color: var(--primary); }
+/* Category strip: trade-specific Material Symbols icons, muted until hover */
+.v-strip__item { gap: 12px; font-size: 1.05rem; }
+.v-strip__item svg { width: 36px; height: 36px; }
 
 /* Compact footer */
 .h-footer { padding-top: clamp(44px, 4.5vw, 64px); }
