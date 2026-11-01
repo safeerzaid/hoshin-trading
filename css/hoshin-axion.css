@@ -639,11 +639,12 @@ body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2
 /* Real brand logos: full colour, uniform size */
 .ax-brand img { max-height: 34px !important; max-width: 130px !important; width: auto; height: auto; filter: none !important; opacity: 1 !important; }
 
-/* Category strip: solid icons on navy badges */
-.v-strip__item { gap: 14px; color: #0d1b2a; font-size: 1.05rem; }
-.v-strip__item svg { box-sizing: border-box; width: 52px; height: 52px; padding: 13px; border-radius: 14px; background: var(--primary); color: #e2cb9b; transition: background-color .3s ease, color .3s ease; }
+/* Category strip: two-tone icons, navy outline with a gold fill */
+.v-strip__item { gap: 12px; color: #0d1b2a; font-size: 1.05rem; }
+.v-strip__item svg { width: 38px; height: 38px; color: var(--primary); }
+.v-strip__item svg [opacity] { fill: #c6aa75; opacity: .75; transition: opacity .3s ease; }
 .v-strip__item:hover { color: var(--primary); }
-.v-strip__item:hover svg { background: #c6aa75; color: var(--primary); }
+.v-strip__item:hover svg [opacity] { opacity: 1; }
 
 /* Compact footer */
 .h-footer { padding-top: clamp(44px, 4.5vw, 64px); }
