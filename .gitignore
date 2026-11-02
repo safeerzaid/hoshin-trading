@@ -26,3 +26,9 @@ test_menu.html
 .vscode/
 v2/
 asset/
+
+# Client reference photos (brand-marked, not for the public site)
+assets/client shared images/
+# macOS metadata
+__MACOSX/
+.DS_Store
