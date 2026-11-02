@@ -116,7 +116,7 @@ const HOSHIN_DATA = {
         'Weight': '31.2 kg',
         'Certification': 'CE / UL / AHRI Compliant'
       },
-      image: 'assets/images/products-v3/compressors.webp'
+      image: 'assets/images/products/scroll-compressor.jpg'
     },
     {
       id: 'hvac-002',
@@ -136,7 +136,7 @@ const HOSHIN_DATA = {
         'Protection': 'Thermal Overload Protected',
         'Mounting': 'Belly Band / Stud Mount'
       },
-      image: 'assets/images/products-v3/motors-fan-components.webp'
+      image: 'assets/images/products/condenser-fan-motor.jpg'
     },
     {
       id: 'hvac-003',
@@ -155,7 +155,7 @@ const HOSHIN_DATA = {
         'Fan Control': '3-Speed relay output + Swing motor drive',
         'Housing': 'Flame-retardant ABS protective tray'
       },
-      image: 'assets/images/products-v3/controls-electronics.webp'
+      image: 'assets/images/products/inverter-control-board.jpg'
     },
     {
       id: 'hvac-004',
@@ -174,7 +174,7 @@ const HOSHIN_DATA = {
         'Max Working Pressure': '45.5 bar (660 psig)',
         'Temperature Range': '-40°C to +10°C'
       },
-      image: 'assets/images/products-v3/valves-refrigeration.webp'
+      image: 'assets/images/products/thermostatic-expansion-valve.jpg'
     },
     {
       id: 'hvac-005',
@@ -193,7 +193,7 @@ const HOSHIN_DATA = {
         'Display': 'Large white backlit LCD screen',
         'Enclosure': 'IP20 Flame retardant PC'
       },
-      image: 'assets/images/products-v3/p-thermostat.webp'
+      image: 'assets/images/products/fcu-thermostat.jpg'
     },
     {
       id: 'hvac-006',
@@ -235,7 +235,7 @@ const HOSHIN_DATA = {
         'Boiling Point': '-51.4°C at 1 atm',
         'Cylinder Spec': 'DOT-39 / ISO 11118 with pressure relief valve'
       },
-      image: 'assets/images/products-v3/p-gauges.webp'
+      image: 'assets/images/products/r410a-cylinder.jpg'
     },
     {
       id: 'ref-002',
@@ -254,7 +254,7 @@ const HOSHIN_DATA = {
         'Standard': 'AHRI-700 Certified',
         'Packaging': 'Non-refillable safety-sealed cylinder'
       },
-      image: 'assets/images/products-v3/p-gauges.webp'
+      image: 'assets/images/products/r134a-cylinder.jpg'
     },
     {
       id: 'ref-003',
@@ -272,7 +272,7 @@ const HOSHIN_DATA = {
         'Working Pressure': 'Up to 50 bar depending on temperature',
         'Connection': 'Female-to-Female Sweat Solder'
       },
-      image: 'assets/images/products-v3/p-copper-elbow.webp'
+      image: 'assets/images/products/copper-elbow.jpg'
     },
     {
       id: 'ref-004',
@@ -291,7 +291,7 @@ const HOSHIN_DATA = {
         'Compatible Refrigerants': 'R410A, R134a, R404A, R407C, R22',
         'Shell Finish': 'Corrosion-resistant epoxy powder coating'
       },
-      image: 'assets/images/products-v3/valves-refrigeration.webp'
+      image: 'assets/images/products/filter-drier.jpg'
     },
     {
       id: 'ref-005',
@@ -310,7 +310,7 @@ const HOSHIN_DATA = {
         'Max Working Pressure': '45 bar (653 psig)',
         'Working Temp': '-50°C to +80°C'
       },
-      image: 'assets/images/products-v3/p-copper.webp'
+      image: 'assets/images/products/sight-glass.jpg'
     },
     {
       id: 'ref-006',
@@ -329,7 +329,7 @@ const HOSHIN_DATA = {
         'Pressure Connection': '1/4" SAE flare male',
         'Protection Class': 'IP44 with splashproof cover'
       },
-      image: 'assets/images/products-v3/controls-electronics.webp'
+      image: 'assets/images/products/dual-pressure-controller.jpg'
     },
 
     // -------------------------------------------------------------
@@ -353,7 +353,7 @@ const HOSHIN_DATA = {
         'Standard': 'IEC / EN 60947-2',
         'Mechanical Life': '20,000 operations'
       },
-      image: 'assets/images/products-v3/p-panel.webp'
+      image: 'assets/images/products/mccb.jpg'
     },
     {
       id: 'elec-002',
@@ -372,7 +372,7 @@ const HOSHIN_DATA = {
         'Mounting': 'Standard 35mm DIN rail',
         'Terminal Capacity': 'Up to 25 mm² cable'
       },
-      image: 'assets/images/products-v3/p-mcb.webp'
+      image: 'assets/images/products/mcb.jpg'
     },
     {
       id: 'elec-003',
@@ -392,7 +392,7 @@ const HOSHIN_DATA = {
         'Voltage Rating': '600 / 1000 Volts (0.6/1 kV)',
         'Packaging': '500m / 1000m wooden drums'
       },
-      image: 'assets/images/products-v3/cables-wiring.webp'
+      image: 'assets/images/products/xlpe-armoured-cable.jpg'
     },
     {
       id: 'elec-004',
@@ -410,7 +410,7 @@ const HOSHIN_DATA = {
         'Design': 'Return flange with slotted perforation pattern',
         'Accessories': 'Coupler plates, bends, tees, risers available'
       },
-      image: 'assets/images/products-v3/cable-management.webp'
+      image: 'assets/images/products/cable-tray.jpg'
     },
     {
       id: 'elec-005',
@@ -430,7 +430,7 @@ const HOSHIN_DATA = {
         'Driver': 'Independent flicker-free constant current driver',
         'Lifetime': '50,000 Hours (L80/B10 @ 25°C)'
       },
-      image: 'assets/images/products-v3/commercial-industrial-lighting.webp'
+      image: 'assets/images/products/led-panel-light.jpg'
     },
     {
       id: 'elec-006',
@@ -472,7 +472,7 @@ const HOSHIN_DATA = {
         'Material': 'Borealis PP-R 100 virgin granulate',
         'Jointing Method': 'Socket heat fusion'
       },
-      image: 'assets/images/products-v3/piping-systems.webp'
+      image: 'assets/images/products/ppr-pipe.jpg'
     },
     {
       id: 'plumb-002',
@@ -491,7 +491,7 @@ const HOSHIN_DATA = {
         'Seats & Seals': 'Pure PTFE (Teflon)',
         'Connections': 'Female x Female BSP parallel threads to ISO 228'
       },
-      image: 'assets/images/products-v3/valves.webp'
+      image: 'assets/images/products/bronze-ball-valve.jpg'
     },
     {
       id: 'plumb-003',
@@ -511,7 +511,7 @@ const HOSHIN_DATA = {
         'Flanges': 'Drilled to EN 1092-2 PN16 / BS 4504',
         'Coating': 'WRAS approved Fusion Bonded Epoxy (min 250 µm)'
       },
-      image: 'assets/images/products-v3/p-valvewheel.webp'
+      image: 'assets/images/products/gate-valve.jpg'
     },
     {
       id: 'plumb-004',
@@ -530,7 +530,7 @@ const HOSHIN_DATA = {
         'Control Panel': 'Smart PLC with dual inverter VFD control',
         'Manifolds': 'Stainless steel suction and discharge headers'
       },
-      image: 'assets/images/products-v3/pumps-pressure-control.webp'
+      image: 'assets/images/products/booster-pump-set.jpg'
     },
     {
       id: 'plumb-005',
@@ -549,7 +549,7 @@ const HOSHIN_DATA = {
         'Connection': '1" BSP male stainless steel connector',
         'Operating Temperature': '-10°C to +99°C'
       },
-      image: 'assets/images/products-v3/p-plant.webp'
+      image: 'assets/images/products/pressure-vessel.jpg'
     },
     {
       id: 'plumb-006',
@@ -567,7 +567,7 @@ const HOSHIN_DATA = {
         'Fusion Temperature': '260°C ± 10°C',
         'Color': 'Standard Green / White'
       },
-      image: 'assets/images/products-v3/pipe-fittings.webp'
+      image: 'assets/images/products/ppr-tee.jpg'
     },
 
     // -------------------------------------------------------------
@@ -590,7 +590,7 @@ const HOSHIN_DATA = {
         'Ductility Ratio (Rm/Re)': '≥ 1.08',
         'Compliance': 'QCS 2014 / Qatar Steel Approved'
       },
-      image: 'assets/images/products-v3/structural-civil-materials.webp'
+      image: 'assets/images/products/rebar.jpg'
     },
     {
       id: 'bld-002',
@@ -609,7 +609,7 @@ const HOSHIN_DATA = {
         'Application': 'Torch-on application with welded seams',
         'Elongation at Break': '≥ 40% Longitudinal & Transverse'
       },
-      image: 'assets/images/products-v3/waterproofing-sealants.webp'
+      image: 'assets/images/products/waterproofing-membrane.jpg'
     },
     {
       id: 'bld-003',
@@ -628,7 +628,7 @@ const HOSHIN_DATA = {
         'Shore A Hardness': 'Approx 25-30',
         'Application Temperature': '+5°C to +40°C'
       },
-      image: 'assets/images/products-v3/waterproofing-sealants.webp'
+      image: 'assets/images/products/pu-sealant.jpg'
     },
     {
       id: 'bld-004',
@@ -647,7 +647,7 @@ const HOSHIN_DATA = {
         'Melting Point': '> 1000°C',
         'Acoustic Absorption': 'NRC up to 0.95'
       },
-      image: 'assets/images/products-v3/insulation-materials.webp'
+      image: 'assets/images/products/rockwool-slab.jpg'
     },
     {
       id: 'bld-005',
@@ -666,7 +666,7 @@ const HOSHIN_DATA = {
         'Surface Finish': 'Hot Dip Galvanized (HDG to ISO 1461 min 45 microns)',
         'Matching Hardware': 'HDG channel nuts, spring washers, hex nuts'
       },
-      image: 'assets/images/products-v3/fasteners-hardware.webp'
+      image: 'assets/images/products/threaded-rod.jpg'
     },
     {
       id: 'bld-006',
@@ -684,7 +684,7 @@ const HOSHIN_DATA = {
         'Reinforcement': 'Dual layers of high-tensile fiberglass mesh',
         'Safety Standard': 'EN 12413 / oSa certified'
       },
-      image: 'assets/images/products-v3/site-consumables.webp'
+      image: 'assets/images/products/cutting-disc.jpg'
     },
 
     // -------------------------------------------------------------
@@ -707,7 +707,7 @@ const HOSHIN_DATA = {
         'Features': 'Integrated rain gutter, 30mm accessory slots, chin strap points',
         'Color': 'White (Yellow, Blue, Green, Red available upon request)'
       },
-      image: 'assets/images/products-v3/head-face-protection.webp'
+      image: 'assets/images/products/safety-helmet.jpg'
     },
     {
       id: 'safe-002',
@@ -726,7 +726,7 @@ const HOSHIN_DATA = {
         'Pockets': 'Clear ID holder, 2 waist cargo pockets, pen pocket',
         'Size': 'Large / XL / XXL'
       },
-      image: 'assets/images/products-v3/body-protection-workwear.webp'
+      image: 'assets/images/products/hi-vis-vest.jpg'
     },
     {
       id: 'safe-003',
@@ -745,7 +745,7 @@ const HOSHIN_DATA = {
         'Standards': 'EN 361:2002 (Harness) & EN 355:2002 (Energy Absorber)',
         'Max User Weight': '140 kg including equipment'
       },
-      image: 'assets/images/products-v3/fall-protection-site-security.webp'
+      image: 'assets/images/products/safety-harness.jpg'
     },
     {
       id: 'safe-004',
@@ -764,7 +764,7 @@ const HOSHIN_DATA = {
         'Outsole': 'Dual density PU injected sole with anti-static energy absorption heel',
         'Sizes': 'Euro 40 to 46'
       },
-      image: 'assets/images/products-v3/p-boots.webp'
+      image: 'assets/images/products/safety-boots.jpg'
     },
     {
       id: 'safe-005',
@@ -782,7 +782,7 @@ const HOSHIN_DATA = {
         'Grip Performance': 'Exceptional grip on oily and dry metal surfaces',
         'Cuff': 'Elasticated knit wrist with color-coded hem for sizing'
       },
-      image: 'assets/images/products-v3/hand-foot-protection.webp'
+      image: 'assets/images/products/cut-resistant-gloves.jpg'
     },
     {
       id: 'safe-006',
@@ -800,7 +800,7 @@ const HOSHIN_DATA = {
         'Fit Features': 'Four-point woven elastic headbands with cushioned foam nose seal',
         'Packaging': 'Box of 10 individually sealed masks'
       },
-      image: 'assets/images/products-v3/respiratory-protection.webp'
+      image: 'assets/images/products/ffp3-mask.jpg'
     }
   ]
 };

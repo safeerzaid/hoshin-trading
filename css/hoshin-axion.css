@@ -639,9 +639,8 @@ body[data-page="rfq.html"] .h-phero__title, .h-phero__title { font-size: clamp(2
 /* Real brand logos: full colour, uniform size */
 .ax-brand img { max-height: 34px !important; max-width: 130px !important; width: auto; height: auto; filter: none !important; opacity: 1 !important; }
 
-/* Category strip: trade-specific Material Symbols icons, muted until hover */
-.v-strip__item { gap: 12px; font-size: 1.05rem; }
-.v-strip__item svg { width: 36px; height: 36px; }
+/* Category strip: trade names only, muted until hover */
+.v-strip__item { font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
 
 /* Compact footer */
 .h-footer { padding-top: clamp(32px, 3.2vw, 44px); }
