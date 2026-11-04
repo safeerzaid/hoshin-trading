@@ -329,7 +329,7 @@ const HOSHIN_DATA = {
         'Pressure Connection': '1/4" SAE flare male',
         'Protection Class': 'IP44 with splashproof cover'
       },
-      image: 'assets/images/products/dual-pressure-controller.jpg'
+      image: 'assets/images/products/pressure-sensor.jpg'
     },
 
     // -------------------------------------------------------------
