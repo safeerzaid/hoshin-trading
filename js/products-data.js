@@ -449,7 +449,7 @@ const HOSHIN_DATA = {
         'Padlocking': 'Padlockable in OFF position (up to 3 padlocks)',
         'Cable Entries': 'M20 / M25 threaded knockouts top & bottom'
       },
-      image: 'assets/images/products-v3/p-switch.webp'
+      image: 'assets/images/products/isolator-switches.jpg'
     },
 
     // -------------------------------------------------------------
