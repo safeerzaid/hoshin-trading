@@ -353,7 +353,7 @@ const HOSHIN_DATA = {
         'Standard': 'IEC / EN 60947-2',
         'Mechanical Life': '20,000 operations'
       },
-      image: 'assets/images/products/mccb.jpg'
+      image: 'assets/images/products/mcb-4p.jpg'
     },
     {
       id: 'elec-002',
@@ -372,7 +372,7 @@ const HOSHIN_DATA = {
         'Mounting': 'Standard 35mm DIN rail',
         'Terminal Capacity': 'Up to 25 mm² cable'
       },
-      image: 'assets/images/products/mcb.jpg'
+      image: 'assets/images/products/mcb-1p.jpg'
     },
     {
       id: 'elec-003',
@@ -628,7 +628,7 @@ const HOSHIN_DATA = {
         'Shore A Hardness': 'Approx 25-30',
         'Application Temperature': '+5°C to +40°C'
       },
-      image: 'assets/images/products/pu-sealant.jpg'
+      image: 'assets/images/products/pu-sealant-cartridges.jpg'
     },
     {
       id: 'bld-004',
